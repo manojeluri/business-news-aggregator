@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Agent - India Business Daily</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>India Business Daily</h1>
+            <p>AI-powered news aggregation and insights</p>
+
+            <div class="stats" id="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="total-stories">-</span>
+                    <span class="stat-label">Stories Today</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="total-categories">-</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="last-updated">-</span>
+                    <span class="stat-label">Last Updated</span>
+                </div>
+            </div>
+
+            <button class="refresh-btn" onclick="refreshNews()">
+                🔄 Refresh News
+            </button>
+        </header>
+
+        <!-- Loading State -->
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading latest business news...</p>
+        </div>
+
+        <!-- Error State -->
+        <div class="error" id="error" style="display: none;">
+            <p>Failed to load news. Please check your connection and try again.</p>
+            <button onclick="loadNews()">Retry</button>
+        </div>
+
+        <!-- Main Content -->
+        <main id="main-content" style="display: none;">
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
