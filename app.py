@@ -24,7 +24,7 @@ def load_config():
     config = {
         'openai_api_key': os.getenv('OPENAI_API_KEY'),
         'llm_model': os.getenv('LLM_MODEL', 'gpt-4o-mini'),
-        'max_items': 8  # HARDCODED for Railway timeout constraints
+        'max_items': 5  # HARDCODED for Railway timeout constraints - ultra conservative
     }
 
     # Load RSS sources
@@ -174,8 +174,8 @@ def process_with_llm(items: List[Dict], config: Dict) -> List[Dict]:
 
     client = OpenAI(api_key=config['openai_api_key'])
 
-    # Process in smaller batches to avoid timeouts
-    batch_size = 4  # Ultra-small batches for Railway timeout constraints
+    # Process in smallest possible batches to avoid timeouts
+    batch_size = 1  # Single item processing for Railway timeout constraints
     all_processed = []
 
     for i in range(0, len(items), batch_size):
