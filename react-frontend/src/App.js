@@ -66,7 +66,9 @@ function App() {
   };
 
   useEffect(() => {
-    loadNews();
+    // Automatically refresh news on page load for fresh content
+    console.log('Auto-refreshing news on page load...');
+    handleRefresh();
 
     // Auto-refresh every 30 minutes
     const interval = setInterval(async () => {
