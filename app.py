@@ -174,6 +174,28 @@ def process_with_llm(items: List[Dict], config: Dict) -> List[Dict]:
 
     client = OpenAI(api_key=config['openai_api_key'])
 
+    # Process in smaller batches to avoid timeouts
+    batch_size = 15  # Reduced from 50 to 15
+    all_processed = []
+
+    for i in range(0, len(items), batch_size):
+        batch = items[i:i+batch_size]
+        print(f"Processing batch {i//batch_size + 1}/{(len(items) + batch_size - 1)//batch_size} ({len(batch)} items)...")
+
+        try:
+            processed_batch = process_batch_with_llm(batch, config, client)
+            all_processed.extend(processed_batch)
+        except Exception as e:
+            print(f"Error processing batch {i//batch_size + 1}: {e}")
+            # Continue with next batch
+            continue
+
+    return all_processed
+
+
+def process_batch_with_llm(items: List[Dict], config: Dict, client: OpenAI) -> List[Dict]:
+    """Process a single batch of items with OpenAI LLM"""
+
     # Prepare system prompt
     system_prompt = """You are a precise India business analyst. Use only the provided item fields (title, summary, source, link, published). Do not invent facts. When unsure, say "unclear". Return strict JSON only."""
 
@@ -197,8 +219,6 @@ Return exactly:
  "labels": ["policy"]
 }}]"""
 
-    print(f"Sending {len(items)} items to LLM...")
-
     try:
         response = client.chat.completions.create(
             model=config['llm_model'],
@@ -206,7 +226,8 @@ Return exactly:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            response_format={"type": "json_object"}
+            response_format={"type": "json_object"},
+            timeout=60  # Add timeout for individual requests
         )
 
         result_text = response.choices[0].message.content
