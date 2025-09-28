@@ -5,12 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "REACT_APP_API_URL=https://web-production-f43c.up.railway.app react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build",
+    "serve": "npx serve -s build -p $PORT"
   },
-  "homepage": "https://manojeluri.github.io/business-agent",
   "dependencies": {
     "axios": "^1.6.0",
     "react": "^18.2.0",
@@ -31,6 +31,7 @@
   },
   "proxy": "http://localhost:5001",
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "serve": "^14.2.5"
   }
 }
