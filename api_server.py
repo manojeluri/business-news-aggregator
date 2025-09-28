@@ -68,13 +68,6 @@ def serve_static(filename):
         # For any other routes (React Router), serve the index.html
         return send_from_directory('react-frontend/build', 'index.html')
 
-@app.route('/api/health')
-def health_check():
-    """Health check endpoint"""
-    return jsonify({
-        'status': 'healthy',
-        'timestamp': datetime.now().isoformat()
-    })
 
 @app.route('/api/news')
 def get_news():
