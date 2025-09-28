@@ -24,6 +24,12 @@ def get_latest_news_data():
             data = json.load(f)
             return data.get('llm_output', [])
 
+    # Fallback to default data if no current data exists
+    if os.path.exists('default_data.json'):
+        with open('default_data.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('llm_output', [])
+
     return []
 
 def group_news_by_category(news_items):
@@ -140,11 +146,20 @@ def get_categorized_news():
 @app.route('/api/health')
 def health_check():
     """Health check endpoint for deployment platforms"""
-    return jsonify({
-        'status': 'healthy',
-        'timestamp': datetime.now().isoformat(),
-        'service': 'business-agent-api'
-    })
+    try:
+        # Simple health check that doesn't depend on data files
+        return jsonify({
+            'status': 'healthy',
+            'timestamp': datetime.now().isoformat(),
+            'service': 'business-agent-api',
+            'version': '1.0.0'
+        }), 200
+    except Exception as e:
+        return jsonify({
+            'status': 'unhealthy',
+            'error': str(e),
+            'timestamp': datetime.now().isoformat()
+        }), 500
 
 @app.route('/api/refresh')
 def refresh_news():
