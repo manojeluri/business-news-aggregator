@@ -20,11 +20,11 @@ def load_config():
     """Load environment variables and sources configuration"""
     load_dotenv()
 
-    # Load environment variables
+    # Load environment variables with Railway-specific limits
     config = {
         'openai_api_key': os.getenv('OPENAI_API_KEY'),
         'llm_model': os.getenv('LLM_MODEL', 'gpt-4o-mini'),
-        'max_items': int(os.getenv('MAX_ITEMS', 12))
+        'max_items': 8  # HARDCODED for Railway timeout constraints
     }
 
     # Load RSS sources
@@ -175,7 +175,7 @@ def process_with_llm(items: List[Dict], config: Dict) -> List[Dict]:
     client = OpenAI(api_key=config['openai_api_key'])
 
     # Process in smaller batches to avoid timeouts
-    batch_size = 8  # Reduced to 8 for Railway timeout limits
+    batch_size = 4  # Ultra-small batches for Railway timeout constraints
     all_processed = []
 
     for i in range(0, len(items), batch_size):
