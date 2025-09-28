@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/business-agent/static/css/main.2f182403.css",
+    "main.js": "/business-agent/static/js/main.26911541.js",
+    "index.html": "/business-agent/index.html",
+    "main.2f182403.css.map": "/business-agent/static/css/main.2f182403.css.map",
+    "main.26911541.js.map": "/business-agent/static/js/main.26911541.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f182403.css",
+    "static/js/main.26911541.js"
+  ]
+}
