@@ -175,7 +175,7 @@ def process_with_llm(items: List[Dict], config: Dict) -> List[Dict]:
     client = OpenAI(api_key=config['openai_api_key'])
 
     # Process in smaller batches to avoid timeouts
-    batch_size = 15  # Reduced from 50 to 15
+    batch_size = 8  # Reduced to 8 for Railway timeout limits
     all_processed = []
 
     for i in range(0, len(items), batch_size):
