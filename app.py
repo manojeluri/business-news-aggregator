@@ -24,7 +24,7 @@ def load_config():
     config = {
         'openai_api_key': os.getenv('OPENAI_API_KEY'),
         'llm_model': os.getenv('LLM_MODEL', 'gpt-4o-mini'),
-        'max_items': 5  # HARDCODED for Railway timeout constraints - ultra conservative
+        'max_items': 25  # Increased back to reasonable amount
     }
 
     # Load RSS sources
@@ -298,18 +298,59 @@ Return JSON array."""
 
 
 def fallback_processing(items: List[Dict]) -> List[Dict]:
-    """Fallback processing when LLM fails"""
-    print("Using fallback processing...")
+    """Smart fallback processing when LLM fails"""
+    print("Using smart fallback processing...")
 
     fallback_items = []
     for item in items:
+        # Create meaningful one-liner from title
+        title = item.get('title', '').strip()
+        if len(title) > 100:
+            one_liner = title[:97] + "..."
+        else:
+            one_liner = title
+
+        # Extract bullet points from summary/description
+        summary = item.get('summary', item.get('description', ''))
+        bullets = []
+        if summary:
+            # Try to create meaningful bullets from summary
+            sentences = summary.split('.')[:2]  # Take first 2 sentences
+            for sentence in sentences:
+                sentence = sentence.strip()
+                if sentence and len(sentence) > 10:
+                    if len(sentence) > 80:
+                        sentence = sentence[:77] + "..."
+                    bullets.append(sentence)
+
+        if not bullets:
+            bullets = ["Breaking business news from " + item.get('source', 'India')]
+
+        # Smart categorization based on keywords
+        text_to_analyze = (title + " " + summary).lower()
+        labels = []
+
+        if any(word in text_to_analyze for word in ['policy', 'government', 'regulation', 'ministry', 'cabinet']):
+            labels.append('policy')
+        if any(word in text_to_analyze for word in ['market', 'stock', 'share', 'trading', 'sensex', 'nifty']):
+            labels.append('markets')
+        if any(word in text_to_analyze for word in ['startup', 'funding', 'venture', 'investment', 'ipo']):
+            labels.append('startups')
+        if any(word in text_to_analyze for word in ['infrastructure', 'construction', 'transport', 'highway']):
+            labels.append('infra')
+        if any(word in text_to_analyze for word in ['energy', 'power', 'renewable', 'coal', 'oil']):
+            labels.append('energy')
+
+        if not labels:
+            labels = ['misc']
+
         fallback_item = {
-            'title': item['title'],
-            'source': item['source'],
-            'link': item['link'],
-            'one_liner': 'unclear',
-            'bullets': ['Data processing unavailable'],
-            'labels': ['misc']
+            'title': title,
+            'source': item.get('source', 'Unknown'),
+            'link': item.get('link', ''),
+            'one_liner': one_liner,
+            'bullets': bullets[:2],  # Max 2 bullets
+            'labels': labels[:2]  # Max 2 labels
         }
         fallback_items.append(fallback_item)
 
@@ -473,9 +514,10 @@ def main():
     deduped_items = deduplicate_items(raw_items)
     print(f"Items after deduplication: {len(deduped_items)}")
 
-    # Process with LLM
+    # Skip AI processing for Railway timeout - use smart fallback
     if deduped_items:
-        processed_items = process_with_llm(deduped_items, config)
+        print("Using smart fallback processing for Railway compatibility...")
+        processed_items = fallback_processing(deduped_items)
         print(f"LLM processing complete: {len(processed_items)} items processed")
 
         # Preview processed output
