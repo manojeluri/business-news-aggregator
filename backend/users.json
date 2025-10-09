@@ -1,0 +1,39 @@
+[
+  {
+    "id": "user_1",
+    "email": "demo1@example.com",
+    "password": "password123",
+    "name": "Demo User 1",
+    "interests": [
+      "Policy & Regulation",
+      "Markets"
+    ],
+    "createdAt": "2025-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "user_2",
+    "email": "demo2@example.com",
+    "password": "password123",
+    "name": "Demo User 2",
+    "interests": [
+      "Startups & Innovation",
+      "Energy & Resources",
+      "Business News",
+      "Infrastructure & Real Estate",
+      "Markets",
+      "Policy & Regulation"
+    ],
+    "createdAt": "2025-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "user_3",
+    "email": "demo3@example.com",
+    "password": "password123",
+    "name": "Demo User 3",
+    "interests": [
+      "Infrastructure & Real Estate",
+      "Business News"
+    ],
+    "createdAt": "2025-10-09T00:00:00.000Z"
+  }
+]

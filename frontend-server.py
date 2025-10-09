@@ -40,8 +40,8 @@ if __name__ == "__main__":
         print(f"   Directory: {DIRECTORY}")
         print("\n📱 Your Business Agent app is now accessible!")
         print("   - News loads automatically (no refresh needed)")
-        print("   - Connected to Railway backend API")
-        print("   - 25 fresh Indian business stories")
+        print("   - Connected to backend API")
+        print("   - 50 fresh Indian business stories")
         print("\nPress Ctrl+C to stop the server")
 
         try:

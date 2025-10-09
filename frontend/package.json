@@ -1,0 +1,41 @@
+{
+  "name": "business-agent-frontend",
+  "version": "1.0.0",
+  "description": "React frontend for Business Agent news aggregator",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:prod": "REACT_APP_API_URL=https://your-backend-url.com react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build:prod",
+    "deploy": "gh-pages -d build",
+    "serve": "npx serve -s build -p $PORT"
+  },
+  "homepage": "https://manojeluri.github.io/business-news-aggregator",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-masonry-css": "^1.0.16",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5001",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "serve": "^14.2.5"
+  }
+}

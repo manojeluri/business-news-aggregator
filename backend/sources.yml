@@ -1,0 +1,20 @@
+# RSS Feed Sources for Business Agent
+# Add your RSS feeds here with name and url
+
+feeds:
+  - name: "Economic Times"
+    url: "https://economictimes.indiatimes.com/rssfeedstopstories.cms"
+  - name: "Mint"
+    url: "https://www.livemint.com/rss/markets"
+  - name: "The Hindu Business"
+    url: "https://www.thehindu.com/business/feeder/default.rss"
+  - name: "Times of India Business"
+    url: "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
+  - name: "CNN News18 Business"
+    url: "https://www.news18.com/rss/business.xml"
+  - name: "India Today Business"
+    url: "https://www.indiatoday.in/rss/1206577"
+  - name: "Business Standard"
+    url: "https://www.business-standard.com/rss/latest.rss"
+  - name: "NDTV Business"
+    url: "https://feeds.feedburner.com/ndtvprofit-latest"
