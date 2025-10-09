@@ -4,5 +4,3 @@ buildCommand = "cd backend && npm install && pip install -r requirements.txt"
 
 [deploy]
 startCommand = "cd backend && python3 service.py & node server.js"
-restartPolicyType = "on-failure"
-restartPolicyMaxRetries = 10
