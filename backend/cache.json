@@ -16379,5 +16379,88 @@
         "entities": []
       }
     }
+  },
+  "https://www.thehindu.com/business/govt-notifies-revisions-for-pli/article70143931.ece": {
+    "timestamp": 1760021994.730913,
+    "data": {
+      "title": "Gov.t notifies revisions for PLI",
+      "source": "The Hindu Business",
+      "link": "https://www.thehindu.com/business/govt-notifies-revisions-for-pli/article70143931.ece",
+      "published": "2025-10-09T20:25:36+05:30",
+      "one_liner": "Gov.t notifies revisions for PLI",
+      "bullets": [
+        "News from The Hindu Business"
+      ],
+      "labels": [
+        "misc"
+      ],
+      "auto_tags": {
+        "companies": [],
+        "sectors": [],
+        "financial_terms": [],
+        "entities": []
+      }
+    }
+  },
+  "https://economictimes.indiatimes.com/news/international/global-trends/give-trump-nobel-prize-netanyahu-after-israel-and-hamas-agree-to-first-phase-of-peace-deal/articleshow/124421663.cms": {
+    "timestamp": 1760022307.944947,
+    "data": {
+      "title": "'Give Trump Nobel Peace Prize': Netanyahu",
+      "source": "Economic Times",
+      "link": "https://economictimes.indiatimes.com/news/international/global-trends/give-trump-nobel-prize-netanyahu-after-israel-and-hamas-agree-to-first-phase-of-peace-deal/articleshow/124421663.cms",
+      "published": "2025-10-09T19:43:22+05:30",
+      "one_liner": "Netanyahu advocates for Trump to receive Nobel Peace Prize after Israel-Hamas ceasefire deal.",
+      "bullets": [
+        "Netanyahu's statement follows a ceasefire agreement and hostages release between Israel and Hamas, impacting regional stability."
+      ],
+      "labels": [
+        "policy",
+        "misc"
+      ],
+      "auto_tags": {
+        "companies": [],
+        "sectors": [],
+        "financial_terms": [],
+        "entities": [
+          "Israel",
+          "Hamas",
+          "USA"
+        ]
+      }
+    }
+  },
+  "https://www.thehindu.com/business/india-to-buy-missiles-worth-350-million-from-uk-under-new-defence-deal-64-indian-firms-commit-to-invest-in-the-uk/article70143639.ece": {
+    "timestamp": 1760022307.944952,
+    "data": {
+      "title": "India to buy missiles worth \u000350 million from U.K. under new defence deal; 64 Indian firms commit to invest in the U.K.",
+      "source": "The Hindu Business",
+      "link": "https://www.thehindu.com/business/india-to-buy-missiles-worth-350-million-from-uk-under-new-defence-deal-64-indian-firms-commit-to-invest-in-the-uk/article70143639.ece",
+      "published": "2025-10-09T20:28:31+05:30",
+      "one_liner": "India enters a £350 million missile deal with the U.K., enhancing defense collaboration.",
+      "bullets": [
+        "The deal includes advancing cooperation on electric engines for Naval ships and significant investments by Indian firms in the U.K.",
+        "64 Indian firms aim to invest £1.3 billion in the U.K., fostering economic ties and defense capability enhancement."
+      ],
+      "labels": [
+        "infra",
+        "policy"
+      ],
+      "auto_tags": {
+        "companies": [],
+        "sectors": [
+          "Defense",
+          "Manufacturing"
+        ],
+        "financial_terms": [
+          "investment",
+          "deal"
+        ],
+        "entities": [
+          "U.K.",
+          "Indian firms",
+          "Naval"
+        ]
+      }
+    }
   }
 }

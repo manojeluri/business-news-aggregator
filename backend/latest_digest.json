@@ -1,39 +1,277 @@
 {
   "date": "2025-10-09",
-  "last_updated": "2025-10-09T20:24:48.295976",
+  "last_updated": "2025-10-09T20:35:07.970297",
   "categories": {
-    "Business News": [
+    "Policy & Regulation": [
       {
-        "title": "EC warns against AI misuse in Bihar polls",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/elections/assembly-elections/bihar/dont-misuse-ai-based-tools-to-spread-misinformation-in-bihar-poll-campaigning-ec/articleshow/124422616.cms",
-        "published": "2025-10-09T20:03:23+05:30",
-        "one_liner": "EC warns against AI misuse in Bihar polls",
+        "title": "Investing in PPF? Don’t exceed the Rs 1.5 lakh limit; interest earned on excess contribution will be taken back!",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/financial-literacy/investing/investing-in-ppf-dont-exceed-the-rs-1-5-lakh-limit-interest-earned-on-excess-contribution-will-be-taken-back/articleshow/124410677.cms",
+        "published": "2025-10-09T18:00:00+05:30",
+        "one_liner": "New PPF rules enforce PAN linking to prevent exceeding investment limits.",
         "bullets": [
-          "News from Economic Times"
+          "Rules link PPF investments to PAN to prevent hiding multiple accounts, which is important for compliance.",
+          "Exceeding Rs 1.5 lakh limit results in clawback of interest on excess contributions."
         ],
         "labels": [
-          "misc"
+          "policy"
         ],
         "auto_tags": {
           "companies": [],
-          "sectors": [],
+          "sectors": [
+            "Finance"
+          ],
+          "financial_terms": [
+            "interest",
+            "limit",
+            "clawback"
+          ],
+          "entities": []
+        }
+      },
+      {
+        "title": "‘Extremely exaggerated numbers’: TCS chief HR dismisses rumours of 50,000-80,000 layoffs; says 6,000 people released",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/extremely-exaggerated-numbers-tcs-chief-hr-dismisses-rumours-of-50000-80000-layoffs-says-6000-people-released/articleshow/124419674.cms",
+        "published": "2025-10-09T19:20:10+05:30",
+        "one_liner": "TCS confirms laying off 6,000 employees, about 1% of its workforce.",
+        "bullets": [
+          "TCS laid off around 6,000 employees to adapt to new technologies, impacting workforce structure.",
+          "Severance packages will vary based on service length and skill obsolescence."
+        ],
+        "labels": [
+          "policy",
+          "markets"
+        ],
+        "auto_tags": {
+          "companies": [
+            "TCS"
+          ],
+          "sectors": [
+            "Technology"
+          ],
+          "financial_terms": [
+            "layoff",
+            "severance"
+          ],
+          "entities": []
+        }
+      },
+      {
+        "title": "Tech transfer: India to consider Chinese JVs investment in ECMS; \u0019 key to building knowledge base\u0019",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/tech-transfer-india-to-consider-chinese-jvs-investment-in-ecms-key-to-building-knowledge-base/articleshow/124415053.cms",
+        "published": "2025-10-09T17:12:46+05:30",
+        "one_liner": "India is open to Chinese joint ventures in electronics manufacturing with a focus on tech transfer.",
+        "bullets": [
+          "India facilitates Chinese investments to boost local electronics manufacturing and knowledge transfer.",
+          "Government incentives have attracted interest from Chinese firms in joint ventures under the ECMS scheme."
+        ],
+        "labels": [
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Electronics Manufacturing"
+          ],
           "financial_terms": [],
           "entities": []
         }
       },
       {
-        "title": "Charlie Kirk faced pressure from Israel?",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/international/global-trends/us-news-charlie-kirks-chilling-messages-on-israel-two-days-before-his-tragic-death-were-genuine-turning-point-usa-responds/articleshow/124412374.cms",
-        "published": "2025-10-09T16:07:45+05:30",
-        "one_liner": "Charlie Kirk's messages about Israel are discussed amid his recent tragic death.",
+        "title": "Direct benefit transfers: Govt makes Aadhaar authentication must for all centrally sponsored schemes; aim to ensure transparency",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/direct-benefit-transfers-govt-makes-aadhaar-authentication-must-for-all-centrally-sponsored-schemes-aim-to-ensure-transparency/articleshow/124414431.cms",
+        "published": "2025-10-09T16:57:00+05:30",
+        "one_liner": "India mandates Aadhaar authentication for all new centrally sponsored schemes to improve transparency in direct benefit transfers.",
         "bullets": [
-          "The discourse may influence international perspectives on Israel-India relations.",
-          "It raises concerns about political pressures affecting public figures."
+          "The Indian government is making Aadhaar authentication compulsory for centrally sponsored schemes to streamline public service delivery.",
+          "This initiative will be effective from April 1, 2026, promoting a digital and reduced cash economy."
         ],
         "labels": [
-          "misc"
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Public Sector"
+          ],
+          "financial_terms": [],
+          "entities": [
+            "Indian government"
+          ]
+        }
+      },
+      {
+        "title": "6G drive: India prepares for 6G trials; global experts at IMC 2025 call for collaboration",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/6g-drive-india-prepares-for-6g-trials-global-experts-at-imc-2025-call-for-collaboration/articleshow/124412655.cms",
+        "published": "2025-10-09T16:12:32+05:30",
+        "one_liner": "India is set to initiate 6G trials with global collaboration.",
+        "bullets": [
+          "India prepares for 6G trials to strengthen its tech influence, aligning with global trends.",
+          "Japan shows interest in collaboration, enhancing India-Japan ties in technology."
+        ],
+        "labels": [
+          "policy",
+          "infra"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Technology"
+          ],
+          "financial_terms": [],
+          "entities": [
+            "IMC",
+            "Japan"
+          ]
+        }
+      },
+      {
+        "title": "'Roadmap for shared progress': PM Modi, Keir Starmer address India-UK CEO Forum; market access, bilateral ties in focus",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/india-uk-ceo-forum-pm-modi-keir-starmer-chart-roadmap-for-shared-progress-target-100-billion-bilateral-trade-by-2030/articleshow/124411722.cms",
+        "published": "2025-10-09T16:04:13+05:30",
+        "one_liner": "PM Modi and UK PM Starmer discuss CETA at the India-UK CEO Forum to enhance trade relations.",
+        "bullets": [
+          "PM Modi highlighted CETA's potential to double bilateral trade to $112 billion by 2030, boosting economic ties.",
+          "The focus is on strengthening MSMEs and collaboration in commerce, education, and technology."
+        ],
+        "labels": [
+          "policy",
+          "markets"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Trade",
+            "Commerce"
+          ],
+          "financial_terms": [
+            "bilateral trade",
+            "economic ties"
+          ],
+          "entities": [
+            "UK",
+            "India"
+          ]
+        }
+      },
+      {
+        "title": "India’s rare earth boost: Govt approves Rs 7,300 crore scheme; aim to diversify away from China",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/indias-rare-earth-boost-govt-approves-rs-7300-crore-scheme-aim-to-diversify-away-from-china/articleshow/124410679.cms",
+        "published": "2025-10-09T14:53:15+05:30",
+        "one_liner": "India approved a Rs 7,300 crore scheme to boost self-reliance in rare earth magnets.",
+        "bullets": [
+          "The scheme aims to provide local manufacturing support to meet domestic demand by 2030.",
+          "It addresses concerns over China's market control in the rare earth sector."
+        ],
+        "labels": [
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Manufacturing"
+          ],
+          "financial_terms": [
+            "investment"
+          ],
+          "entities": [
+            "government"
+          ]
+        }
+      },
+      {
+        "title": "'Critical Minerals Industry Guild': India-UK alliance enters new phase; focus on promoting green technologies",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/critical-minerals-industry-guild-india-uk-alliance-enters-new-phase-focus-on-promoting-green-technologies/articleshow/124410186.cms",
+        "published": "2025-10-09T14:42:48+05:30",
+        "one_liner": "India and UK establish the Critical Minerals Industry Guild to enhance cooperation in critical minerals.",
+        "bullets": [
+          "Modi and Starmer announced the guild to support green tech, critical for India's energy transition efforts.",
+          "The alliance aims to strengthen economic ties amid ongoing discussions on Free Trade Agreement and defense."
+        ],
+        "labels": [
+          "policy",
+          "energy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Energy",
+            "Minerals"
+          ],
+          "financial_terms": [],
+          "entities": [
+            "India",
+            "UK"
+          ]
+        }
+      },
+      {
+        "title": "‘India has to choose its path’: Shivraj Singh Chouhan pitches self-reliance; says tariffs are new weapons",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/india-has-to-choose-its-path-shivraj-singh-chouhan-pitches-self-reliance-says-tariffs-are-new-weapons/articleshow/124410032.cms",
+        "published": "2025-10-09T14:24:21+05:30",
+        "one_liner": "Shivraj Singh Chouhan emphasizes India's self-reliance and resilience against global trade pressures.",
+        "bullets": [
+          "Chouhan promotes self-reliance in agriculture, significant for food security and farmer income enhancement.",
+          "Focus on increasing agricultural productivity in pulses and oilseeds to secure national interests."
+        ],
+        "labels": [
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Agriculture"
+          ],
+          "financial_terms": [
+            "tariffs"
+          ],
+          "entities": []
+        }
+      },
+      {
+        "title": "Heavy rare earth monopoly: China seeks India guarantee that magnets won’t be re-exported to US; here’s why",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/heavy-rare-earth-monopoly-china-seeks-india-guarantee-that-magnets-wont-be-re-exported-to-us-heres-why/articleshow/124406082.cms",
+        "published": "2025-10-09T13:05:34+05:30",
+        "one_liner": "China demands India ensure heavy rare earth magnets are used domestically, affecting India's electric vehicle sector.",
+        "bullets": [
+          "China requests India guarantees on domestic use of heavy rare earth magnets amidst supply constraints for EV development.",
+          "Heavy rare earth materials remain a bottleneck affecting broader vehicle production in India."
+        ],
+        "labels": [
+          "policy",
+          "energy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Electric Vehicles",
+            "Rare Earths"
+          ],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Israel-Hamas agree on first phase of Trump peace plan; what will change?",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/israel-hamas-agree-on-first-phase-of-trump-peace-plan-what-will-change-2800628-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T19:40:23+05:30",
+        "one_liner": "Israel and Hamas agree on the first phase of a peace plan proposed by Trump.",
+        "bullets": [
+          "The agreement could influence Middle Eastern geopolitics.",
+          "Stabilization in the region may lead to improved trade relations."
+        ],
+        "labels": [
+          "policy"
         ],
         "auto_tags": {
           "companies": [],
@@ -41,438 +279,268 @@
             "International Relations"
           ],
           "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Questions of accountability over Musk's package",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/international/global-trends/elon-musks-record-tesla-package-will-pay-him-tens-of-billions-even-if-he-misses-most-goals/articleshow/124411836.cms",
-        "published": "2025-10-09T15:48:37+05:30",
-        "one_liner": "Musk's Tesla compensation package raises accountability questions.",
-        "bullets": [
-          "Elon Musk's package could result in tens of billions in payouts even if goals are missed; affects investor confidence.",
-          "Transparency in executive compensation is crucial for corporate governance, particularly for Indian investors looking at global parallels."
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Tesla"
-          ],
-          "sectors": [
-            "Automotive"
-          ],
-          "financial_terms": [
-            "compensation"
-          ],
-          "entities": []
-        }
-      },
-      {
-        "title": "Pharma set for upside on tariff clarity: Rahul Shah",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/pharma-set-for-upside-on-tariff-clarity-lupin-rbl-bank-among-top-picks-rahul-shah/articleshow/124409421.cms",
-        "published": "2025-10-09T14:02:36+05:30",
-        "one_liner": "Pharma set for upside on tariff clarity: Rahul Shah",
-        "bullets": [
-          "News from Economic Times"
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Check names of three banned toxic syrups",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/india/cough-syrup-advisory-check-names-of-three-banned-toxic-syrups-and-five-harmful-ingredients-parents-should-watch-out-for/articleshow/124410379.cms",
-        "published": "2025-10-09T14:54:35+05:30",
-        "one_liner": "Check names of three banned toxic syrups",
-        "bullets": [
-          "News from Economic Times"
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Ashwin opens up on his retirement decision",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/sports/india-bowler-ravichandran-ashwin-opens-up-on-his-retirement-decision/articleshow/124408743.cms",
-        "published": "2025-10-09T13:22:29+05:30",
-        "one_liner": "Ravichandran Ashwin discusses his decision regarding retirement from cricket.",
-        "bullets": [
-          "Ashwin's retirement thoughts provide insight into player longevity and career planning.",
-          "This may influence younger players' approach to their careers in sports."
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Sports"
-          ],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Hamas to free 20 live hostages: Report",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/international/world-news/hamas-to-free-20-live-hostages-says-source-close-to-negotiations/articleshow/124408095.cms",
-        "published": "2025-10-09T12:49:34+05:30",
-        "one_liner": "Hamas reportedly to release 20 live hostages, signaling potential diplomatic developments.",
-        "bullets": [
-          "The hostage release may influence geopolitical stability in the region, impacting international business environments.",
-          "This potential shift could lead to increased investor confidence in Middle Eastern markets."
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Want to imbibe Rohit bhai's calmness: Shubman Gill",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/sports/want-to-imbibe-rohit-bhais-calmness-shubman-gill-on-taking-over-as-odi-captain/articleshow/124407728.cms",
-        "published": "2025-10-09T12:32:27+05:30",
-        "one_liner": "Shubman Gill expresses desire to emulate Rohit Sharma's leadership qualities.",
-        "bullets": [
-          "Gill aims to bring calmness to his captaincy, potentially impacting team performance.",
-          "Leadership style could influence India's cricketing ambitions on the global stage."
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Sports"
-          ],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Sahara’s plea to sell Aamby Valley, other properties to Adani tentatively set for October 14 Supreme Court hearing",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/Industry/saharas-plea-to-sell-aamby-valley-other-properties-to-adani-tentatively-set-for-october-14-supreme-court-hearing/article70143044.ece",
-        "published": "2025-10-09T15:06:02+05:30",
-        "one_liner": "Sahara's request to sell properties to Adani will be heard by the Supreme Court on October 14.",
-        "bullets": [
-          "The Supreme Court's decision may affect the future of Sahara's asset management.",
-          "It reflects ongoing legal complexities in the sector involving high-profile companies."
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Sahara",
-            "Adani"
-          ],
-          "sectors": [
-            "Real Estate"
-          ],
-          "financial_terms": [
-            "assets"
-          ],
           "entities": [
-            "Supreme Court"
+            "Israel",
+            "Hamas"
           ]
         }
       },
       {
-        "title": "Rupee falls 3 paise to 88.78 against U.S. dollar in early trade",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/markets/rupee-falls-3-paise-to-8878-against-us-dollar-in-early-trade/article70142380.ece",
-        "published": "2025-10-09T10:55:06+05:30",
-        "one_liner": "Rupee falls 3 paise to 88.78 against U.S. dollar in early trade",
+        "title": "PM Modi backs Trump's Gaza plan, praises Netanyahu's leadership",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/video/modi-backs-trumps-gaza-plan-lauds-netanyahus-strong-leadership-ytvd-2800295-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T15:19:17+05:30",
+        "one_liner": "PM Modi endorsed Trump's Gaza plan and praised Netanyahu's leadership.",
         "bullets": [
-          "Forex traders said all positive trends in domestic equities supported the rupee at lower levels."
+          "PM Modi's support for the Gaza plan strengthens India-US ties, potentially influencing regional stability.",
+          "India's diplomatic posture may affect investments from countries engaged in Middle Eastern politics."
         ],
         "labels": [
-          "misc"
+          "policy"
         ],
         "auto_tags": {
           "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "India to become the factory of the future: Dassault Systemes’ CEO Pascal Daloz",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/india-to-become-the-factory-of-the-future-dassault-systemes-ceo-pascal-daloz/article70140123.ece",
-        "published": "2025-10-08T22:20:42+05:30",
-        "one_liner": "India to become the factory of the future: Dassault Systemes’ CEO Pascal Daloz",
-        "bullets": [
-          "News from The Hindu Business"
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Navi Mumbai International Airport to make this region one of Asia’s biggest aviation hubs: PM Modi",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/navi-mumbai-international-airport-inauguration-pm-modi/article70139122.ece",
-        "published": "2025-10-08T16:28:16+05:30",
-        "one_liner": "Navi Mumbai International Airport to make this region one of Asia’s biggest aviation hubs: PM Modi",
-        "bullets": [
-          "The Prime Minister also launched the Mumbai One app which offers commuters a range of benefits, including integrated mobile ticketing across multiple public transport operators"
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Tata group leaders meet Amit Shah, Nirmala Sitharaman",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/news/national/tata-group-leaders-meet-amit-shah-nirmala-sitharaman/article70137025.ece",
-        "published": "2025-10-08T01:53:58+05:30",
-        "one_liner": "Tata group leaders met with Indian ministers amid ongoing governance issues within the company.",
-        "bullets": [
-          "The meeting addresses internal conflicts among Tata trustees regarding board appointments.",
-          "Resolving governance issues is critical for maintaining investor confidence in Tata group's operations."
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Tata"
-          ],
           "sectors": [],
           "financial_terms": [],
           "entities": [
-            "Amit Shah",
-            "Nirmala Sitharaman"
+            "government"
           ]
         }
       },
       {
-        "title": "Bombay High Court dismisses Anil Ambani’s petition against SBI’s fraud classification of Reliance Communications",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/bombay-high-court-dismisses-anil-ambanis-petition-against-sbis-fraud-classification-of-reliance-communications/article70136264.ece",
-        "published": "2025-10-07T23:04:46+05:30",
-        "one_liner": "Bombay High Court dismissed Anil Ambani's petition regarding SBI's fraud classification of Reliance Communications.",
+        "title": "Jaish announces first women's unit, to be led by Masood Azhar's sister",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/jaish-e-mohammed-women-unit-jamaat-ul-mominaat-led-masood-azhar-sister-sadiya-azhar-terrorist-new-tactics-operation-sindoor-2800442-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T14:58:19+05:30",
+        "one_liner": "Jaish-e-Mohammed formed a women's unit led by Masood Azhar's sister.",
         "bullets": [
-          "The court ruled that Mr. Ambani was given a chance to present his case but did not utilize it.",
-          "This decision impacts Reliance Communications' business standing and investor perception."
+          "Establishment of a women's unit by Jaish-e-Mohammed marks a new tactic in terrorism, impacting national security.",
+          "Increased recruitment efforts by terrorist organizations may pose challenges for law enforcement in India."
         ],
         "labels": [
-          "misc"
+          "policy"
         ],
         "auto_tags": {
-          "companies": [
-            "Reliance Communications",
-            "SBI"
-          ],
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "H-1B fee hike to impact top US universities, hit Indian students",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/us-news/story/h-1b-visa-study-visas-fee-hike-puts-us-universities-in-spotlight-stanford-stem-opt-indian-students-columbia-trump-2800342-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T13:51:55+05:30",
+        "one_liner": "H-1B fee increases will affect universities and Indian students pursuing education in the US.",
+        "bullets": [
+          "H-1B visa fees are rising, impacting enrollment at US universities like Stanford and Columbia.",
+          "Indian students are a significant demographic in US higher education, thus fee hikes could reduce their applications."
+        ],
+        "labels": [
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
           "sectors": [
-            "Banking"
+            "Education"
+          ],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Trump racing for Nobel Peace Prize day before announcement, White House cheers on",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/donald-trump-israel-hamas-gaza-peace-plan-white-house-peace-president-day-before-nobel-peace-prize-2025-announcement-2800195-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T08:46:25+05:30",
+        "one_liner": "Trump is pursuing the Nobel Peace Prize with a peace plan amid Israel-Hamas tensions.",
+        "bullets": [
+          "Trump's peace plan aims to address the Israel-Hamas conflict, affecting global political stability.",
+          "Recognition of Trump could impact U.S.-India relations and investor confidence in geopolitical risks."
+        ],
+        "labels": [
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Politics"
           ],
           "financial_terms": [],
           "entities": [
-            "Bombay High Court"
+            "Nobel Prize",
+            "White House",
+            "Israel-Hamas"
           ]
         }
       },
       {
-        "title": "Indian man breaks into Singapore flat, molests US woman in sleep; jailed",
+        "title": "Trump demands jail for Chicago mayor, Illinois governor who oppose Guard deployment",
         "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/indians-abroad/story/indian-indians-abroad-singapore-us-american-national-2800531-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T18:57:50+05:30",
-        "one_liner": "Indian man breaks into Singapore flat, molests US woman in sleep; jailed",
+        "link": "https://www.indiatoday.in/world/us-news/story/trump-demands-jail-for-chicago-mayor-illinois-governor-who-oppose-national-guard-deployment-glbs-2800167-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T06:53:05+05:30",
+        "one_liner": "Trump called for jail for officials resisting National Guard deployment in Chicago.",
         "bullets": [
-          "Indian man breaks into Singapore flat, molests US woman in sleep; jailed"
+          "Trump's demand reflects ongoing tensions regarding state governance and law enforcement.",
+          "Political unrest in the U.S. may influence foreign perceptions of American stability."
         ],
         "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Hamas has agreed to first stage of Trump's peace plan: Israeli Minister",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/video/hamas-has-agreed-to-first-stage-of-trumps-peace-plan-israeli-minister-2800547-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T17:44:25+05:30",
-        "one_liner": "Hamas has agreed to first stage of Trump's peace plan: Israeli Minister",
-        "bullets": [
-          "Hamas has agreed to first stage of Trump's peace plan: Israeli Minister"
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Why it may not be a good Friday for Trump",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/story/donald-trump-nobel-peace-prize-2025-unlikely-to-win-top-contenders-2800491-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T16:34:34+05:30",
-        "one_liner": "Discussion on Trump's chances of winning the 2025 Nobel Peace Prize.",
-        "bullets": [
-          "Trump's prospects for the Nobel Peace Prize are unlikely, impacting his global perception.",
-          "This affects U.S.-India relations as political climate influences bilateral ties."
-        ],
-        "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Hungarian author László Krasznahorkai wins 2025 Nobel Prize in Literature",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/story/hungarian-author-laszlo-krasznahorkai-wins-nobel-in-literature-for-compelling-and-visionary-oeuvre-2800507-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T16:32:27+05:30",
-        "one_liner": "László Krasznahorkai has won the 2025 Nobel Prize in Literature.",
-        "bullets": [
-          "The award highlights global literary trends, relevant for Indian readers and educators.",
-          "It can inspire local writers and boost cultural exchange with Hungary."
-        ],
-        "labels": [
-          "misc"
+          "policy"
         ],
         "auto_tags": {
           "companies": [],
           "sectors": [
-            "Literature"
+            "Politics"
           ],
           "financial_terms": [],
-          "entities": []
+          "entities": [
+            "National Guard",
+            "Illinois Government",
+            "Chicago"
+          ]
         }
       },
       {
-        "title": "Mobile for repair reveals sex assaults, gets Indian-origin brothers jailed in UK",
+        "title": "UN to cut 25% of its global peacekeeping force in response to US funding strains",
         "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/uk-news/story/device-repair-uncovers-footage-of-indian-origin-man-child-sex-crimes-in-uk-east-london-crime-vruj-patel-paedophile-2800455-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T16:13:39+05:30",
-        "one_liner": "Mobile for repair reveals sex assaults, gets Indian-origin brothers jailed in UK",
+        "link": "https://www.indiatoday.in/world/story/un-to-cut-25-of-global-peacekeeping-force-response-us-funding-strains-glbs-2800166-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T06:49:07+05:30",
+        "one_liner": "UN announces a 25% cut in global peacekeeping forces due to US funding issues.",
         "bullets": [
-          "Mobile for repair reveals sex assaults, gets Indian-origin brothers jailed in UK"
+          "The UN reduces peacekeeping personnel by 25% as US funding strains impact operations.",
+          "This reduction might influence global security dynamics, affecting international relations."
         ],
         "labels": [
-          "misc"
+          "policy"
         ],
         "auto_tags": {
           "companies": [],
           "sectors": [],
           "financial_terms": [],
-          "entities": []
+          "entities": [
+            "UN",
+            "US"
+          ]
         }
       },
       {
-        "title": "Why the global grip of Indian gangs is spelling fear for desi diaspora?",
+        "title": "Trump yet to present Congress evidence that targeted boats carried drugs: Officials",
         "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/story/indian-organised-crime-network-global-reach-lawrence-bishnoi-gang-terror-threats-canada-europe-extortion-diaspora-2799953-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T10:59:27+05:30",
-        "one_liner": "The global reach of Indian gangs is causing concern for the Indian diaspora.",
+        "link": "https://www.indiatoday.in/world/us-news/story/trump-yet-to-present-congress-evidence-that-targeted-boats-carried-drugs-officials-glbs-2800164-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T06:37:30+05:30",
+        "one_liner": "Trump has not provided Congress with evidence regarding alleged drug trafficking boats.",
         "bullets": [
-          "Indian organized crime networks are spreading fear among the diaspora in countries like Canada and Europe.",
-          "These criminal activities, including extortion, affect perceptions of safety and security for Indians abroad."
+          "Officials state Trump has yet to prove claims about boats involved in drug trafficking.",
+          "The lack of evidence might affect US anti-drug policies and international cooperation."
         ],
         "labels": [
-          "misc"
+          "policy"
         ],
         "auto_tags": {
           "companies": [],
           "sectors": [],
           "financial_terms": [],
-          "entities": []
+          "entities": [
+            "Congress",
+            "Trump"
+          ]
         }
       },
       {
-        "title": "Video: Gaza hostage families thank Trump for his courage on release announcement",
+        "title": "Petro claims latest vessel bombed by US off Venezuela carried Colombians",
         "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/story/gaza-peace-plan-hostage-families-thank-president-donald-trump-israel-hamas-agree-first-phase-2800180-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T08:54:21+05:30",
-        "one_liner": "Gaza hostage families express gratitude to Trump after release announcement amid ongoing geopolitical tensions.",
+        "link": "https://www.indiatoday.in/world/story/colombian-president-petro-claims-latest-vessel-bombed-by-us-off-venezuela-carried-his-citizens-glbs-2800163-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T06:25:11+05:30",
+        "one_liner": "Petro claims a US-bombed vessel off Venezuela had Colombian citizens aboard.",
         "bullets": [
-          "Hostage families thanked Trump, indicating U.S. involvement in international hostage negotiations, which may influence global relations.",
-          "The announcement impacts geopolitical dynamics, potentially affecting investor sentiment in affected regions."
+          "Petro's statement could escalate tensions regarding US military actions.",
+          "Implications for Colombian expatriates might affect trade relations."
         ],
         "labels": [
-          "misc"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Smriti Mandhana shatters 28-year-old world record",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/sports/smriti-mandhana-creates-history-shatters-28-year-old-odi-world-record/articleshow/124422018.cms",
-        "published": "2025-10-09T20:04:09+05:30",
-        "one_liner": "Smriti Mandhana breaks a long-standing ODI world record, showcasing India's sports talent.",
-        "bullets": [
-          "Mandhana's record enhances India's reputation in international cricket.",
-          "This achievement may inspire increased investment in women's sports."
-        ],
-        "labels": [
-          "misc"
+          "policy",
+          "energy"
         ],
         "auto_tags": {
           "companies": [],
           "sectors": [
-            "Sports"
+            "Energy"
           ],
+          "financial_terms": [],
+          "entities": [
+            "US",
+            "Venezuela",
+            "Colombia"
+          ]
+        }
+      },
+      {
+        "title": "Approve Truth Social post: Trump receives urgent note from Rubio on Gaza peace deal",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/us-news/story/donald-trump-receives-urgent-note-from-marco-rubio-on-gaza-peace-deal-video-glbs-2800161-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T05:13:35+05:30",
+        "one_liner": "Trump receives a note from Rubio on a peace deal for Gaza.",
+        "bullets": [
+          "The peace deal could influence geopolitical stability in the region.",
+          "Enhancements in peace efforts may open markets for investors."
+        ],
+        "labels": [
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": [
+            "Gaza",
+            "US",
+            "Trump"
+          ]
+        }
+      },
+      {
+        "title": "Israel, Hamas agree to first phase of Gaza peace plan, hostage release: Trump",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/israel-hamas-agree-first-phase-plan-to-end-fighting-release-hostages-trump-glbs-2800160-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T04:45:43+05:30",
+        "one_liner": "Israel and Hamas agree to a peace plan including hostage release.",
+        "bullets": [
+          "Israel and Hamas have initiated a peace agreement aimed at reducing conflict in Gaza, which impacts regional stability.",
+          "This agreement may influence India's foreign policy and trade relations in the Middle East."
+        ],
+        "labels": [
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
           "financial_terms": [],
           "entities": []
         }
-      }
-    ],
-    "Policy & Regulation": [
+      },
+      {
+        "title": "Bangladesh terms Indian foreign secretary's election remarks unwarranted",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/bangladesh-election-remarks-india-unwarranted-political-tension-trials-glbs-2800158-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T04:29:44+05:30",
+        "one_liner": "Bangladesh criticizes Indian foreign secretary's comments on elections.",
+        "bullets": [
+          "Bangladesh reacted negatively to comments made by Indian foreign secretary regarding its elections, highlighting diplomatic tensions.",
+          "This incident may impact future India-Bangladesh relations, which are crucial for trade and regional stability."
+        ],
+        "labels": [
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": [
+            "Bangladesh",
+            "India"
+          ]
+        }
+      },
       {
         "title": "Cong releases 42-page report against Nitish govt",
         "source": "Economic Times",
@@ -1065,438 +1133,17 @@
         }
       },
       {
-        "title": "Commerce Minister Goyal and U.K. counterpart Kyle reaffirm commitment to double bilateral trade by 2030",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/Economy/commerce-minister-goyal-and-uk-counterpart-kyle-reaffirm-commitment-to-double-bilateral-trade-by-2030/article70140002.ece",
-        "published": "2025-10-08T19:28:52+05:30",
-        "one_liner": "India and the U.K. aim to double bilateral trade by 2030.",
-        "bullets": [
-          "Minister Goyal and Kyle discussed trade enhancement during an official visit; it signifies strengthened economic ties between India and the U.K.",
-          "A target to double trade could impact jobs and investment flows for both nations."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Trade"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "India",
-            "U.K."
-          ]
-        }
-      },
-      {
-        "title": "IMC 2025: Beyond 5G, India's ambitions extend to 6G, satellite communication, says Jyotiraditya Scindia",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/Industry/imc-2025-beyond-5g-indias-ambitions-extend-to-6g-satellite-communication-says-jyotiraditya-scindia/article70138886.ece",
-        "published": "2025-10-08T15:54:48+05:30",
-        "one_liner": "India is set to expand its technology ambitions to 6G and satellite communications.",
-        "bullets": [
-          "Jyotiraditya Scindia highlighted India's transformation in technology leadership, essential for attracting global investments.",
-          "Focus on 6G and satellite communication could position India as a tech hub, impacting investment and economic growth."
-        ],
-        "labels": [
-          "policy",
-          "infra"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Technology",
-            "Telecommunications"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "Ministry of Electronics and Information Technology"
-          ]
-        }
-      },
-      {
-        "title": "IMC 2025: Mobile data cheaper than a cup of tea in India, says PM Modi",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/news/national/imc-2025-mobile-data-cheaper-than-a-cup-of-tea-in-india-says-pm-modi/article70138627.ece",
-        "published": "2025-10-08T13:35:28+05:30",
-        "one_liner": "PM Modi announced that mobile data is now cheaper than tea in India.",
-        "bullets": [
-          "Prime Minister Modi emphasized India's growth as the second largest 5G market.",
-          "This affordability could enhance internet accessibility and spur economic growth."
-        ],
-        "labels": [
-          "policy",
-          "infra"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Telecommunications"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "Indian Government"
-          ]
-        }
-      },
-      {
-        "title": "Why Indian capital needs to invest domestically",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/Economy/why-indian-capital-needs-to-invest-domestically/article70135134.ece",
-        "published": "2025-10-08T08:30:00+05:30",
-        "one_liner": "India's private businesses need to align with government for economic growth amid global uncertainty.",
-        "bullets": [
-          "The article emphasizes the necessity of domestic investment to sustain economic momentum.",
-          "It highlights collaboration between private sector and government as crucial for future stability."
-        ],
-        "labels": [
-          "policy",
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Economy"
-          ],
-          "financial_terms": [
-            "investment"
-          ],
-          "entities": []
-        }
-      },
-      {
-        "title": "Modernisation of financial architecture: how India is adopting stablecoins",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/sci-tech/technology/modernisation-of-financial-architecture-how-india-is-adopting-stablecoins/article70134979.ece",
-        "published": "2025-10-08T08:30:00+05:30",
-        "one_liner": "India is preparing to engage with stablecoins as announced by Finance Minister Nirmala Sitharaman.",
-        "bullets": [
-          "Finance Minister emphasized the need for India to adapt to stablecoins as part of its financial modernization efforts.",
-          "This indicates a shift in India's regulatory stance towards cryptocurrencies, which could impact investment in the sector."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Technology"
-          ],
-          "financial_terms": [
-            "crypto assets"
-          ],
-          "entities": [
-            "Nirmala Sitharaman"
-          ]
-        }
-      },
-      {
-        "title": "India’s response to U.S. has been uncompromising: Sanjeev Sanyal",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/news/national/indias-response-to-us-has-been-uncompromising-sanjeev-sanyal/article70136241.ece",
-        "published": "2025-10-07T22:56:12+05:30",
-        "one_liner": "Sanjeev Sanyal states India's response to the U.S. has been uncompromising amid growing global power dynamics.",
-        "bullets": [
-          "Sanyal highlighted that India must navigate its position as a rising power without reliance on global space.",
-          "This stance could influence international relations and economic partnerships."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "misc"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "Prime Minister's Economic Advisory Council"
-          ]
-        }
-      },
-      {
-        "title": "Waiting for other countries to unveil digital currency: RBI",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/waiting-for-other-countries-to-unveil-digital-currency-rbi/article70136294.ece",
-        "published": "2025-10-07T22:31:52+05:30",
-        "one_liner": "RBI indicates dependence on other countries for digital currency developments.",
-        "bullets": [
-          "RBI's Deputy Governor urges global collaboration in digital currency.",
-          "Highlights India's readiness for stable coins amidst global shifts."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Financial Services"
-          ],
-          "financial_terms": [
-            "digital currency"
-          ],
-          "entities": [
-            "RBI"
-          ]
-        }
-      },
-      {
-        "title": "India said to probe Adani Defence for tax evasion on missile-part imports",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/india-said-to-probe-adani-defence-for-tax-evasion-on-missile-part-imports/article70136871.ece",
-        "published": "2025-10-07T22:21:48+05:30",
-        "one_liner": "Adani Defence faces investigation for alleged tax evasion on missile parts.",
-        "bullets": [
-          "Investigation into import misclassification to evade taxes on missile components.",
-          "Indicates regulatory scrutiny on defence spending and compliance in India."
-        ],
-        "labels": [
-          "policy",
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Adani"
-          ],
-          "sectors": [
-            "Defence"
-          ],
-          "financial_terms": [
-            "tax evasion"
-          ],
-          "entities": [
-            "Indian Government"
-          ]
-        }
-      },
-      {
-        "title": "Maharashtra cabinet approves Gem and Jewellery Policy 2025",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/maharashtra-cabinet-approves-gems-and-jewellery-policy-2025/article70136857.ece",
-        "published": "2025-10-07T22:07:11+05:30",
-        "one_liner": "Maharashtra cabinet approved the Gem and Jewellery Policy 2025.",
-        "bullets": [
-          "The policy aims to boost Maharashtra's gem and jewellery sector for better growth and employment.",
-          "It is significant for attracting investment and enhancing export competitiveness."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Jewellery"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "Maharashtra"
-          ]
-        }
-      },
-      {
-        "title": "Textile industry calls for aligning cotton production with textile export targets",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/textile-industry-calls-for-aligning-cotton-production-with-textile-export-targets/article70136306.ece",
-        "published": "2025-10-07T21:49:47+05:30",
-        "one_liner": "The textile industry seeks alignment of cotton production with export targets.",
-        "bullets": [
-          "This initiative aims to meet global demand, potentially increasing India's textile exports significantly.",
-          "Aligning production with demands can prevent cotton surplus and ensure better price stability."
-        ],
-        "labels": [
-          "policy",
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Textiles",
-            "Agriculture"
-          ],
-          "financial_terms": [
-            "export",
-            "production"
-          ],
-          "entities": []
-        }
-      },
-      {
-        "title": "Israel-Hamas agree on first phase of Trump peace plan; what will change?",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/story/israel-hamas-agree-on-first-phase-of-trump-peace-plan-what-will-change-2800628-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T19:40:23+05:30",
-        "one_liner": "Israel and Hamas agree on the first phase of a peace plan proposed by Trump.",
-        "bullets": [
-          "The agreement could influence Middle Eastern geopolitics.",
-          "Stabilization in the region may lead to improved trade relations."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "International Relations"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "Israel",
-            "Hamas"
-          ]
-        }
-      },
-      {
-        "title": "PM Modi backs Trump's Gaza plan, praises Netanyahu's leadership",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/video/modi-backs-trumps-gaza-plan-lauds-netanyahus-strong-leadership-ytvd-2800295-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T15:19:17+05:30",
-        "one_liner": "PM Modi endorsed Trump's Gaza plan and praised Netanyahu's leadership.",
-        "bullets": [
-          "PM Modi's support for the Gaza plan strengthens India-US ties, potentially influencing regional stability.",
-          "India's diplomatic posture may affect investments from countries engaged in Middle Eastern politics."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": [
-            "government"
-          ]
-        }
-      },
-      {
-        "title": "Jaish announces first women's unit, to be led by Masood Azhar's sister",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/story/jaish-e-mohammed-women-unit-jamaat-ul-mominaat-led-masood-azhar-sister-sadiya-azhar-terrorist-new-tactics-operation-sindoor-2800442-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T14:58:19+05:30",
-        "one_liner": "Jaish-e-Mohammed formed a women's unit led by Masood Azhar's sister.",
-        "bullets": [
-          "Establishment of a women's unit by Jaish-e-Mohammed marks a new tactic in terrorism, impacting national security.",
-          "Increased recruitment efforts by terrorist organizations may pose challenges for law enforcement in India."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "H-1B fee hike to impact top US universities, hit Indian students",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/us-news/story/h-1b-visa-study-visas-fee-hike-puts-us-universities-in-spotlight-stanford-stem-opt-indian-students-columbia-trump-2800342-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T13:51:55+05:30",
-        "one_liner": "H-1B fee increases will affect universities and Indian students pursuing education in the US.",
-        "bullets": [
-          "H-1B visa fees are rising, impacting enrollment at US universities like Stanford and Columbia.",
-          "Indian students are a significant demographic in US higher education, thus fee hikes could reduce their applications."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Education"
-          ],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Trump racing for Nobel Peace Prize day before announcement, White House cheers on",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/story/donald-trump-israel-hamas-gaza-peace-plan-white-house-peace-president-day-before-nobel-peace-prize-2025-announcement-2800195-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T08:46:25+05:30",
-        "one_liner": "Trump is pursuing the Nobel Peace Prize with a peace plan amid Israel-Hamas tensions.",
-        "bullets": [
-          "Trump's peace plan aims to address the Israel-Hamas conflict, affecting global political stability.",
-          "Recognition of Trump could impact U.S.-India relations and investor confidence in geopolitical risks."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Politics"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "Nobel Prize",
-            "White House",
-            "Israel-Hamas"
-          ]
-        }
-      },
-      {
-        "title": "Trump demands jail for Chicago mayor, Illinois governor who oppose Guard deployment",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/us-news/story/trump-demands-jail-for-chicago-mayor-illinois-governor-who-oppose-national-guard-deployment-glbs-2800167-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T06:53:05+05:30",
-        "one_liner": "Trump called for jail for officials resisting National Guard deployment in Chicago.",
-        "bullets": [
-          "Trump's demand reflects ongoing tensions regarding state governance and law enforcement.",
-          "Political unrest in the U.S. may influence foreign perceptions of American stability."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Politics"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "National Guard",
-            "Illinois Government",
-            "Chicago"
-          ]
-        }
-      },
-      {
-        "title": "UN to cut 25% of its global peacekeeping force in response to US funding strains",
-        "source": "India Today Business",
-        "link": "https://www.indiatoday.in/world/story/un-to-cut-25-of-global-peacekeeping-force-response-us-funding-strains-glbs-2800166-2025-10-09?utm_source=rss",
-        "published": "2025-10-09T06:49:07+05:30",
-        "one_liner": "UN announces a 25% cut in global peacekeeping forces due to US funding issues.",
-        "bullets": [
-          "The UN reduces peacekeeping personnel by 25% as US funding strains impact operations.",
-          "This reduction might influence global security dynamics, affecting international relations."
-        ],
-        "labels": [
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": [
-            "UN",
-            "US"
-          ]
-        }
-      },
-      {
         "title": "'Give Trump Nobel Peace Prize': Netanyahu",
         "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/news/international/global-trends/give-trump-nobel-peace-prize-netanyahu-after-israel-and-hamas-agree-to-first-phase-of-peace-deal/articleshow/124421663.cms",
+        "link": "https://economictimes.indiatimes.com/news/international/global-trends/give-trump-nobel-prize-netanyahu-after-israel-and-hamas-agree-to-first-phase-of-peace-deal/articleshow/124421663.cms",
         "published": "2025-10-09T19:43:22+05:30",
-        "one_liner": "Netanyahu voices support for Trump receiving the Nobel Peace Prize amid Israel-Hamas peace negotiations.",
+        "one_liner": "Netanyahu advocates for Trump to receive Nobel Peace Prize after Israel-Hamas ceasefire deal.",
         "bullets": [
-          "The conflict resolution could stabilize the Middle East, impacting India's interests in the region.",
-          "A peaceful agreement may open opportunities for India's investments in Middle Eastern markets."
+          "Netanyahu's statement follows a ceasefire agreement and hostages release between Israel and Hamas, impacting regional stability."
         ],
         "labels": [
-          "policy"
+          "policy",
+          "misc"
         ],
         "auto_tags": {
           "companies": [],
@@ -1511,6 +1158,145 @@
       }
     ],
     "Markets": [
+      {
+        "title": "US markets today: Wall Street pauses near records as gold ticks up; investors cheer airline earnings",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/international-business/us-markets-today-wall-street-pauses-near-records-as-gold-ticks-up-investors-cheer-airline-earnings/articleshow/124422136.cms",
+        "published": "2025-10-09T19:52:58+05:30",
+        "one_liner": "U.S. markets pause near record highs, driven by strong airline earnings.",
+        "bullets": [
+          "Airline stocks rose after Delta Air Lines exceeded profit expectations; positive sentiment may influence Indian markets.",
+          "Record highs in U.S. markets could attract foreign investment, impacting Indian equities."
+        ],
+        "labels": [
+          "markets"
+        ],
+        "auto_tags": {
+          "companies": [
+            "Delta Air Lines"
+          ],
+          "sectors": [
+            "Airlines",
+            "Finance"
+          ],
+          "financial_terms": [
+            "earnings",
+            "stocks"
+          ],
+          "entities": [
+            "Wall Street",
+            "U.S. Government"
+          ]
+        }
+      },
+      {
+        "title": "Elon Musk pay package: Tesla CEO could earn billions without achieving key targets; here’s what experts say",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/international-business/elon-musk-pay-package-tesla-ceo-could-earn-billions-without-major-breakthroughs-heres-what-experts-say/articleshow/124420417.cms",
+        "published": "2025-10-09T19:19:02+05:30",
+        "one_liner": "Elon Musk could earn billions without meeting key Tesla targets, analysts reveal.",
+        "bullets": [
+          "Musk's pay package may yield over $50 billion despite soft targets, raising investor concerns.",
+          "Easier targets in vehicle sales and software drive potential earnings, influencing market perceptions."
+        ],
+        "labels": [
+          "markets",
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [
+            "Tesla"
+          ],
+          "sectors": [
+            "Energy"
+          ],
+          "financial_terms": [
+            "pay package",
+            "earnings"
+          ],
+          "entities": []
+        }
+      },
+      {
+        "title": "Housing trends: All-India house price index up 3.6% in Q1, Nagpur and Chennai lead quarterly gains",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/housing-trends-all-india-house-price-index-up-3-6-in-q1-nagpur-and-chennai-lead-quarterly-gains/articleshow/124417024.cms",
+        "published": "2025-10-09T18:04:03+05:30",
+        "one_liner": "India's house price index increased by 3.6% year-on-year in Q1 of the fiscal year.",
+        "bullets": [
+          "House price index rose, indicating sustained demand in real estate despite economic fluctuations.",
+          "Nagpur, Chandigarh, Chennai, and Kochi saw significant gains, suggesting regional property market strength."
+        ],
+        "labels": [
+          "markets",
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Real Estate"
+          ],
+          "financial_terms": [
+            "house price index",
+            "year-on-year growth"
+          ],
+          "entities": [
+            "RBI"
+          ]
+        }
+      },
+      {
+        "title": "Silver rate today: Prices surge by Rs 6k to record Rs 1.63 lakh/kg; industrial demand drive gains",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/silver-rate-today-prices-surge-by-rs-6k-to-record-rs-1-63-lakh/kg-industrial-demand-drive-gains/articleshow/124414662.cms",
+        "published": "2025-10-09T17:02:18+05:30",
+        "one_liner": "Silver prices hit Rs 1.63 lakh/kg due to rising industrial demand and safe-haven asset appeal.",
+        "bullets": [
+          "Silver prices surged by Rs 6,000 to record a new high driven by global demand and interest rate expectations.",
+          "Gold prices remain steady at record levels, impacting investor interest in precious metals."
+        ],
+        "labels": [
+          "markets"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Precious Metals"
+          ],
+          "financial_terms": [
+            "prices",
+            "demand"
+          ],
+          "entities": []
+        }
+      },
+      {
+        "title": "TCS Q2 results FY26: Tata Consultancy Services posts net profit of Rs 12,075 crore; check details",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/tcs-q2-results-fy26-tata-consultancy-services-earnings-net-profit-profit-after-tax-highlights-top-points-ebitda-dividend/articleshow/124411577.cms",
+        "published": "2025-10-09T16:06:17+05:30",
+        "one_liner": "TCS reports Q2 net profit of Rs 12,075 crore, a 1.4% year-on-year growth.",
+        "bullets": [
+          "TCS's net profit rose by 1.4%, indicating business stability amid market challenges.",
+          "Operational revenue increased by 2.4%, reaching Rs 65,799 crore, reflecting demand for IT services."
+        ],
+        "labels": [
+          "markets"
+        ],
+        "auto_tags": {
+          "companies": [
+            "TCS"
+          ],
+          "sectors": [
+            "Technology"
+          ],
+          "financial_terms": [
+            "net profit",
+            "operational revenue"
+          ],
+          "entities": []
+        }
+      },
       {
         "title": "India on track to become 3rd largest eco: UK PM",
         "source": "Economic Times",
@@ -1867,222 +1653,612 @@
           ],
           "entities": []
         }
-      },
+      }
+    ],
+    "Startups & Innovation": [
       {
-        "title": "AI at centre of new offerings from SAP for ERP",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/Economy/ai-at-centre-of-new-offerings-from-sap-for-erp/article70140017.ece",
-        "published": "2025-10-08T20:16:52+05:30",
-        "one_liner": "SAP introduces AI-driven solutions for Enterprise Resource Planning (ERP).",
+        "title": "TCS expansion: IT giant acquires US-based ListEngage for $73 million; strengthens Salesforce and AI capabilities",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/tcs-expansion-it-giant-acquires-us-based-listengage-for-73-million-strengthens-salesforce-and-ai-capabilities/articleshow/124421494.cms",
+        "published": "2025-10-09T19:39:35+05:30",
+        "one_liner": "TCS acquires ListEngage for $72.80 million to enhance Salesforce and AI services.",
         "bullets": [
-          "The new offerings aim to enhance business efficiency by integrating AI technology into ERP systems.",
-          "This could significantly affect demand for digital transformation services in Indian enterprises."
+          "TCS acquisition boosts its global Salesforce and AI advisory capabilities, improving market competitiveness.",
+          "The deal adds over 100 experts to TCS, enhancing its marketing cloud and CRM services."
         ],
         "labels": [
-          "markets",
           "startups"
         ],
         "auto_tags": {
           "companies": [
-            "SAP"
+            "TCS",
+            "ListEngage"
           ],
           "sectors": [
-            "Technology"
-          ],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Bajaj Finserv rebrands its general, life insurance businesses",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/bajaj-finserv-rebrands-its-general-life-insurance-businesses/article70139535.ece",
-        "published": "2025-10-08T18:14:21+05:30",
-        "one_liner": "Bajaj Finserv has rebranded its insurance businesses as part of strategic transformation.",
-        "bullets": [
-          "The rebranding reflects Bajaj Finserv's strategic shifts in its insurance sector, signifying a response to market dynamics.",
-          "Transformation will potentially enhance customer engagement and market penetration."
-        ],
-        "labels": [
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Bajaj Finserv"
-          ],
-          "sectors": [
-            "Insurance"
-          ],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Gold price surges \u0000b92,600 to hit fresh peak of \u0000b91.26 lakh/10 g",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/markets/gold-price-surges-2600-to-hit-fresh-peak-of-126-lakh10-g/article70139480.ece",
-        "published": "2025-10-08T18:01:39+05:30",
-        "one_liner": "Gold price increased to ₹1.26 lakh per 10 grams due to global geopolitical tensions.",
-        "bullets": [
-          "Gold prices rose by ₹2,600, reflecting increased investment in safe haven assets.",
-          "The U.S. government shutdown and geopolitical tensions contribute to market volatility."
-        ],
-        "labels": [
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Precious Metals"
-          ],
-          "financial_terms": [],
-          "entities": [
-            "U.S. dollar"
-          ]
-        }
-      },
-      {
-        "title": "Rupee falls 3 paise to close at 88.80 against U.S. dollar",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/markets/rupee-falls-3-paise-to-close-at-8880-against-us-dollar/article70139184.ece",
-        "published": "2025-10-08T16:44:01+05:30",
-        "one_liner": "Rupee declined by 3 paise, closing at 88.80 against the U.S. dollar amid forex fluctuations.",
-        "bullets": [
-          "Rupee fell by 3 paise, indicating pressure from external economic conditions.",
-          "The U.S. dollar remains stable, posing challenges for Indian exporters."
-        ],
-        "labels": [
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [],
-          "sectors": [
-            "Foreign Exchange"
+            "Technology",
+            "Consulting"
           ],
           "financial_terms": [
-            "exchange rate"
+            "acquisition",
+            "profit"
           ],
-          "entities": [
-            "U.S. dollar",
-            "rupee"
-          ]
-        }
-      },
-      {
-        "title": "Stock markets halt 4-day rally on selling in blue-chips RIL, HDFC Bank",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/markets/stock-markets-halt-4-day-rally-on-selling-in-blue-chips-ril-hdfc-bank/article70139127.ece",
-        "published": "2025-10-08T16:31:43+05:30",
-        "one_liner": "Indian stock markets stopped a four-day gain due to selling in major stocks.",
-        "bullets": [
-          "Major selling in stocks like RIL and HDFC Bank led to the market halt, affecting investor confidence.",
-          "The halt after a four-day rally indicates volatility, which may concern investors."
-        ],
-        "labels": [
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Reliance",
-            "HDFC Bank",
-            "Tata Motors",
-            "Mahindra & Mahindra",
-            "Sun Pharma"
-          ],
-          "sectors": [
-            "Finance",
-            "Automotive",
-            "Pharmaceuticals"
-          ],
-          "financial_terms": [
-            "stock market",
-            "selling",
-            "investor confidence"
-          ],
-          "entities": [
-            "BSE",
-            "NSE"
-          ]
-        }
-      },
-      {
-        "title": "Equity markets trade higher in early trade on buying in IT stocks, fresh foreign fund inflows",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/markets/equity-markets-trade-higher-in-early-trade-on-buying-in-it-stocks-fresh-foreign-fund-inflows/article70138118.ece",
-        "published": "2025-10-08T11:09:30+05:30",
-        "one_liner": "Equity markets trade higher due to IT stock buying and foreign fund inflows.",
-        "bullets": [
-          "Equity markets are witnessing gains as investors buy IT stocks, which boosts market sentiment.",
-          "Foreign fund inflows indicate investor confidence in the Indian market."
-        ],
-        "labels": [
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Power Grid",
-            "Sun Pharma",
-            "UltraTech Cement",
-            "Hindustan Unilever"
-          ],
-          "sectors": [
-            "Information Technology"
-          ],
-          "financial_terms": [],
           "entities": []
         }
       },
       {
-        "title": "Rupee rises 2 paise to 88.75 against U.S. dollar in early trade",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/markets/rupee-rises-2-paise-to-8875-against-us-dollar-in-early-trade/article70138116.ece",
-        "published": "2025-10-08T11:01:03+05:30",
-        "one_liner": "Rupee appreciates 2 paise to reach 88.75 against the U.S. dollar.",
+        "title": "NPCI, Razorpay pilot agentic payments on OpenAI",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/npci-razorpay-join-openai-to-pilot-agentic-payments-on-chatgpt/articleshow/124409666.cms",
+        "published": "2025-10-09T14:11:11+05:30",
+        "one_liner": "NPCI and Razorpay are piloting agentic payments integration with OpenAI's ChatGPT.",
         "bullets": [
-          "The rupee's slight appreciation suggests cautious investor sentiment with tepid IPO inflows.",
-          "The rupee is predicted to remain between 88.50 to 89.00, impacting forex trading."
+          "The pilot aims to enhance payment systems using AI, potentially transforming digital transactions in India.",
+          "Successful outcomes could drive wider adoption of AI in financial services."
         ],
         "labels": [
-          "markets"
+          "startups",
+          "policy"
+        ],
+        "auto_tags": {
+          "companies": [
+            "NPCI",
+            "Razorpay",
+            "OpenAI"
+          ],
+          "sectors": [
+            "Technology",
+            "Finance"
+          ],
+          "financial_terms": [
+            "payments"
+          ],
+          "entities": []
+        }
+      }
+    ],
+    "Business News": [
+      {
+        "title": "Gold loan interest rates: What different banks are offering? Check latest rate of SBI, HDFC, ICICI & others",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/financial-literacy/debt-management/gold-loan-interest-rates-what-different-banks-are-offering-check-latest-rate-of-sbi-hdfc-icici-others/articleshow/124414217.cms",
+        "published": "2025-10-09T17:25:38+05:30",
+        "one_liner": "Several banks in India offer varying interest rates on gold loans based on gold purity and weight.",
+        "bullets": [
+          "Gold loans offer quick cash, providing flexibility for borrowers to manage financial needs.",
+          "Understanding repayment options is crucial for informed decision-making among potential borrowers."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [
+            "SBI",
+            "HDFC",
+            "ICICI"
+          ],
+          "sectors": [
+            "Banking"
+          ],
+          "financial_terms": [
+            "gold loan",
+            "interest rates"
+          ],
+          "entities": []
+        }
+      },
+      {
+        "title": "All work and no pay: US govt shutdown hits federal workers; forced to apply for loans to meet daily needs",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/international-business/all-work-and-no-pay-us-govt-shutdown-hits-federal-workers-forced-to-apply-for-loans-to-meet-daily-needs/articleshow/124406714.cms",
+        "published": "2025-10-09T17:30:00+05:30",
+        "one_liner": "US federal workers are applying for loans due to a government shutdown affecting their pay.",
+        "bullets": [
+          "The US government shutdown is impacting federal workers, forcing them to seek loans for essential expenses.",
+          "Credit unions are offering short-term loans to help workers until back pay is received."
+        ],
+        "labels": [
+          "misc"
         ],
         "auto_tags": {
           "companies": [],
           "sectors": [],
-          "financial_terms": [
-            "IPO"
-          ],
+          "financial_terms": [],
           "entities": [
-            "rupee"
+            "US government"
           ]
         }
       },
       {
-        "title": "Tesla shares fall on doubts that latest autos will boost sales",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/sci-tech/technology/tesla-shares-fall-on-doubts-that-latest-autos-will-boost-sales/article70137919.ece",
-        "published": "2025-10-08T09:50:30+05:30",
-        "one_liner": "Tesla's latest models face skepticism, impacting investor confidence.",
+        "title": "Indian man breaks into Singapore flat, molests US woman in sleep; jailed",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/indians-abroad/story/indian-indians-abroad-singapore-us-american-national-2800531-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T18:57:50+05:30",
+        "one_liner": "Indian man breaks into Singapore flat, molests US woman in sleep; jailed",
         "bullets": [
-          "Tesla began taking orders for new models priced around $40,000, indicating a competitive strategy.",
-          "Concerns over sales performance may influence investor sentiment in electric vehicle markets."
+          "Indian man breaks into Singapore flat, molests US woman in sleep; jailed"
         ],
         "labels": [
-          "markets"
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Hamas has agreed to first stage of Trump's peace plan: Israeli Minister",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/video/hamas-has-agreed-to-first-stage-of-trumps-peace-plan-israeli-minister-2800547-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T17:44:25+05:30",
+        "one_liner": "Hamas has agreed to first stage of Trump's peace plan: Israeli Minister",
+        "bullets": [
+          "Hamas has agreed to first stage of Trump's peace plan: Israeli Minister"
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Why it may not be a good Friday for Trump",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/donald-trump-nobel-peace-prize-2025-unlikely-to-win-top-contenders-2800491-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T16:34:34+05:30",
+        "one_liner": "Discussion on Trump's chances of winning the 2025 Nobel Peace Prize.",
+        "bullets": [
+          "Trump's prospects for the Nobel Peace Prize are unlikely, impacting his global perception.",
+          "This affects U.S.-India relations as political climate influences bilateral ties."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Hungarian author László Krasznahorkai wins 2025 Nobel Prize in Literature",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/hungarian-author-laszlo-krasznahorkai-wins-nobel-in-literature-for-compelling-and-visionary-oeuvre-2800507-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T16:32:27+05:30",
+        "one_liner": "László Krasznahorkai has won the 2025 Nobel Prize in Literature.",
+        "bullets": [
+          "The award highlights global literary trends, relevant for Indian readers and educators.",
+          "It can inspire local writers and boost cultural exchange with Hungary."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Literature"
+          ],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Mobile for repair reveals sex assaults, gets Indian-origin brothers jailed in UK",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/uk-news/story/device-repair-uncovers-footage-of-indian-origin-man-child-sex-crimes-in-uk-east-london-crime-vruj-patel-paedophile-2800455-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T16:13:39+05:30",
+        "one_liner": "Mobile for repair reveals sex assaults, gets Indian-origin brothers jailed in UK",
+        "bullets": [
+          "Mobile for repair reveals sex assaults, gets Indian-origin brothers jailed in UK"
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Why the global grip of Indian gangs is spelling fear for desi diaspora?",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/indian-organised-crime-network-global-reach-lawrence-bishnoi-gang-terror-threats-canada-europe-extortion-diaspora-2799953-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T10:59:27+05:30",
+        "one_liner": "The global reach of Indian gangs is causing concern for the Indian diaspora.",
+        "bullets": [
+          "Indian organized crime networks are spreading fear among the diaspora in countries like Canada and Europe.",
+          "These criminal activities, including extortion, affect perceptions of safety and security for Indians abroad."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Video: Gaza hostage families thank Trump for his courage on release announcement",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/gaza-peace-plan-hostage-families-thank-president-donald-trump-israel-hamas-agree-first-phase-2800180-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T08:54:21+05:30",
+        "one_liner": "Gaza hostage families express gratitude to Trump after release announcement amid ongoing geopolitical tensions.",
+        "bullets": [
+          "Hostage families thanked Trump, indicating U.S. involvement in international hostage negotiations, which may influence global relations.",
+          "The announcement impacts geopolitical dynamics, potentially affecting investor sentiment in affected regions."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Failed assassin of Argentina's former president given 10-year prison term",
+        "source": "India Today Business",
+        "link": "https://www.indiatoday.in/world/story/argentine-court-sentences-gunman-failed-cristina-kirchner-assassination-glbs-2800159-2025-10-09?utm_source=rss",
+        "published": "2025-10-09T04:41:23+05:30",
+        "one_liner": "A court sentenced a failed assassin of Argentina's former president to ten years in prison.",
+        "bullets": [
+          "The sentenced individual posed a risk to political stability, which may have implications for international relations.",
+          "This incident underscores evolving security concerns that could affect investor confidence in the region."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "EC warns against AI misuse in Bihar polls",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/news/elections/assembly-elections/bihar/dont-misuse-ai-based-tools-to-spread-misinformation-in-bihar-poll-campaigning-ec/articleshow/124422616.cms",
+        "published": "2025-10-09T20:03:23+05:30",
+        "one_liner": "EC warns against AI misuse in Bihar polls",
+        "bullets": [
+          "News from Economic Times"
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Smriti Mandhana shatters 28-year-old world record",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/news/sports/smriti-mandhana-creates-history-shatters-28-year-old-odi-world-record/articleshow/124422018.cms",
+        "published": "2025-10-09T20:04:09+05:30",
+        "one_liner": "Smriti Mandhana breaks a long-standing ODI world record, showcasing India's sports talent.",
+        "bullets": [
+          "Mandhana's record enhances India's reputation in international cricket.",
+          "This achievement may inspire increased investment in women's sports."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Sports"
+          ],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Charlie Kirk faced pressure from Israel?",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/news/international/global-trends/us-news-charlie-kirks-chilling-messages-on-israel-two-days-before-his-tragic-death-were-genuine-turning-point-usa-responds/articleshow/124412374.cms",
+        "published": "2025-10-09T16:07:45+05:30",
+        "one_liner": "Charlie Kirk's messages about Israel are discussed amid his recent tragic death.",
+        "bullets": [
+          "The discourse may influence international perspectives on Israel-India relations.",
+          "It raises concerns about political pressures affecting public figures."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "International Relations"
+          ],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Questions of accountability over Musk's package",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/news/international/global-trends/elon-musks-record-tesla-package-will-pay-him-tens-of-billions-even-if-he-misses-most-goals/articleshow/124411836.cms",
+        "published": "2025-10-09T15:48:37+05:30",
+        "one_liner": "Musk's Tesla compensation package raises accountability questions.",
+        "bullets": [
+          "Elon Musk's package could result in tens of billions in payouts even if goals are missed; affects investor confidence.",
+          "Transparency in executive compensation is crucial for corporate governance, particularly for Indian investors looking at global parallels."
+        ],
+        "labels": [
+          "misc"
         ],
         "auto_tags": {
           "companies": [
             "Tesla"
           ],
           "sectors": [
-            "Automotive",
-            "Technology"
+            "Automotive"
           ],
+          "financial_terms": [
+            "compensation"
+          ],
+          "entities": []
+        }
+      },
+      {
+        "title": "Pharma set for upside on tariff clarity: Rahul Shah",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/pharma-set-for-upside-on-tariff-clarity-lupin-rbl-bank-among-top-picks-rahul-shah/articleshow/124409421.cms",
+        "published": "2025-10-09T14:02:36+05:30",
+        "one_liner": "Pharma set for upside on tariff clarity: Rahul Shah",
+        "bullets": [
+          "News from Economic Times"
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Check names of three banned toxic syrups",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/news/india/cough-syrup-advisory-check-names-of-three-banned-toxic-syrups-and-five-harmful-ingredients-parents-should-watch-out-for/articleshow/124410379.cms",
+        "published": "2025-10-09T14:54:35+05:30",
+        "one_liner": "Check names of three banned toxic syrups",
+        "bullets": [
+          "News from Economic Times"
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Ashwin opens up on his retirement decision",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/news/sports/india-bowler-ravichandran-ashwin-opens-up-on-his-retirement-decision/articleshow/124408743.cms",
+        "published": "2025-10-09T13:22:29+05:30",
+        "one_liner": "Ravichandran Ashwin discusses his decision regarding retirement from cricket.",
+        "bullets": [
+          "Ashwin's retirement thoughts provide insight into player longevity and career planning.",
+          "This may influence younger players' approach to their careers in sports."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Sports"
+          ],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Hamas to free 20 live hostages: Report",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/news/international/world-news/hamas-to-free-20-live-hostages-says-source-close-to-negotiations/articleshow/124408095.cms",
+        "published": "2025-10-09T12:49:34+05:30",
+        "one_liner": "Hamas reportedly to release 20 live hostages, signaling potential diplomatic developments.",
+        "bullets": [
+          "The hostage release may influence geopolitical stability in the region, impacting international business environments.",
+          "This potential shift could lead to increased investor confidence in Middle Eastern markets."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Want to imbibe Rohit bhai's calmness: Shubman Gill",
+        "source": "Economic Times",
+        "link": "https://economictimes.indiatimes.com/news/sports/want-to-imbibe-rohit-bhais-calmness-shubman-gill-on-taking-over-as-odi-captain/articleshow/124407728.cms",
+        "published": "2025-10-09T12:32:27+05:30",
+        "one_liner": "Shubman Gill expresses desire to emulate Rohit Sharma's leadership qualities.",
+        "bullets": [
+          "Gill aims to bring calmness to his captaincy, potentially impacting team performance.",
+          "Leadership style could influence India's cricketing ambitions on the global stage."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Sports"
+          ],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Gov.t notifies revisions for PLI",
+        "source": "The Hindu Business",
+        "link": "https://www.thehindu.com/business/govt-notifies-revisions-for-pli/article70143931.ece",
+        "published": "2025-10-09T20:25:36+05:30",
+        "one_liner": "Gov.t notifies revisions for PLI",
+        "bullets": [
+          "News from The Hindu Business"
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "Sahara’s plea to sell Aamby Valley, other properties to Adani tentatively set for October 14 Supreme Court hearing",
+        "source": "The Hindu Business",
+        "link": "https://www.thehindu.com/business/Industry/saharas-plea-to-sell-aamby-valley-other-properties-to-adani-tentatively-set-for-october-14-supreme-court-hearing/article70143044.ece",
+        "published": "2025-10-09T15:06:02+05:30",
+        "one_liner": "Sahara's request to sell properties to Adani will be heard by the Supreme Court on October 14.",
+        "bullets": [
+          "The Supreme Court's decision may affect the future of Sahara's asset management.",
+          "It reflects ongoing legal complexities in the sector involving high-profile companies."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [
+            "Sahara",
+            "Adani"
+          ],
+          "sectors": [
+            "Real Estate"
+          ],
+          "financial_terms": [
+            "assets"
+          ],
+          "entities": [
+            "Supreme Court"
+          ]
+        }
+      },
+      {
+        "title": "Rupee falls 3 paise to 88.78 against U.S. dollar in early trade",
+        "source": "The Hindu Business",
+        "link": "https://www.thehindu.com/business/markets/rupee-falls-3-paise-to-8878-against-us-dollar-in-early-trade/article70142380.ece",
+        "published": "2025-10-09T10:55:06+05:30",
+        "one_liner": "Rupee falls 3 paise to 88.78 against U.S. dollar in early trade",
+        "bullets": [
+          "Forex traders said all positive trends in domestic equities supported the rupee at lower levels."
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
+          "financial_terms": [],
+          "entities": []
+        }
+      },
+      {
+        "title": "India to become the factory of the future: Dassault Systemes’ CEO Pascal Daloz",
+        "source": "The Hindu Business",
+        "link": "https://www.thehindu.com/business/india-to-become-the-factory-of-the-future-dassault-systemes-ceo-pascal-daloz/article70140123.ece",
+        "published": "2025-10-08T22:20:42+05:30",
+        "one_liner": "India to become the factory of the future: Dassault Systemes’ CEO Pascal Daloz",
+        "bullets": [
+          "News from The Hindu Business"
+        ],
+        "labels": [
+          "misc"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [],
           "financial_terms": [],
           "entities": []
         }
       }
     ],
+    "Energy & Resources": [
+      {
+        "title": "Discounts double! Indian refiners to step up Russia crude oil imports in coming months; increase despite Trump pressure",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/india-business/discounts-double-indian-refiners-to-step-up-russia-crude-oil-imports-in-coming-months-increase-despite-trump-pressure/articleshow/124408688.cms",
+        "published": "2025-10-09T14:28:19+05:30",
+        "one_liner": "Indian refiners plan to increase Russian crude oil imports amid widening price discounts.",
+        "bullets": [
+          "Indian refiners will increase Russian crude oil imports due to larger price discounts, important for energy security.",
+          "US pressures India to limit these imports, highlighting geopolitical tensions."
+        ],
+        "labels": [
+          "energy"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Energy"
+          ],
+          "financial_terms": [
+            "crude oil imports",
+            "discounts"
+          ],
+          "entities": [
+            "US"
+          ]
+        }
+      }
+    ],
     "Infrastructure & Real Estate": [
+      {
+        "title": "Navi Mumbai International Airport Inauguration: What Makes Mumbai’s Second International Airport Special? Top Stunning Facts & Photos You Shouldn’t Miss",
+        "source": "Times of India Business",
+        "link": "https://timesofindia.indiatimes.com/business/infrastructure/navi-mumbai-international-airport-inauguration-nmia-pm-narendra-modi-opening-date-location-project-details-terminal-features-flights-top-facts-and-photos/photostory/124381746.cms",
+        "published": "2025-10-08T16:10:58+05:30",
+        "one_liner": "The Navi Mumbai International Airport was inaugurated in October 2025.",
+        "bullets": [
+          "Navi Mumbai International Airport inaugurated to improve connectivity and economic growth.",
+          "It aims to ease congestion at Chhatrapati Shivaji Maharaj International Airport."
+        ],
+        "labels": [
+          "infra"
+        ],
+        "auto_tags": {
+          "companies": [],
+          "sectors": [
+            "Infrastructure"
+          ],
+          "financial_terms": [],
+          "entities": [
+            "Navi Mumbai International Airport"
+          ]
+        }
+      },
       {
         "title": "IndiGo to increase flights to Manchester",
         "source": "Economic Times",
@@ -2236,190 +2412,34 @@
         }
       },
       {
-        "title": "Coal India-IRCON sign MoU to develop rail infra for coal transportation",
+        "title": "India to buy missiles worth \u000350 million from U.K. under new defence deal; 64 Indian firms commit to invest in the U.K.",
         "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/coal-india-ircon-sign-mou-to-develop-rail-infra-for-coal-transportation/article70139543.ece",
-        "published": "2025-10-08T18:24:48+05:30",
-        "one_liner": "Coal India and IRCON signed an MoU to enhance coal transportation infrastructure.",
+        "link": "https://www.thehindu.com/business/india-to-buy-missiles-worth-350-million-from-uk-under-new-defence-deal-64-indian-firms-commit-to-invest-in-the-uk/article70143639.ece",
+        "published": "2025-10-09T20:28:31+05:30",
+        "one_liner": "India enters a £350 million missile deal with the U.K., enhancing defense collaboration.",
         "bullets": [
-          "Coal India and IRCON collaboration aims to boost coal logistics, essential for energy supply security.",
-          "The agreement builds on a previous non-binding deal with Konkan Railways, indicating ongoing efforts to improve rail connectivity."
+          "The deal includes advancing cooperation on electric engines for Naval ships and significant investments by Indian firms in the U.K.",
+          "64 Indian firms aim to invest £1.3 billion in the U.K., fostering economic ties and defense capability enhancement."
         ],
         "labels": [
           "infra",
-          "energy"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Coal India",
-            "IRCON"
-          ],
-          "sectors": [
-            "Infrastructure",
-            "Energy"
-          ],
-          "financial_terms": [],
-          "entities": []
-        }
-      }
-    ],
-    "Startups & Innovation": [
-      {
-        "title": "NPCI, Razorpay pilot agentic payments on OpenAI",
-        "source": "Economic Times",
-        "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/npci-razorpay-join-openai-to-pilot-agentic-payments-on-chatgpt/articleshow/124409666.cms",
-        "published": "2025-10-09T14:11:11+05:30",
-        "one_liner": "NPCI and Razorpay are piloting agentic payments integration with OpenAI's ChatGPT.",
-        "bullets": [
-          "The pilot aims to enhance payment systems using AI, potentially transforming digital transactions in India.",
-          "Successful outcomes could drive wider adoption of AI in financial services."
-        ],
-        "labels": [
-          "startups",
           "policy"
         ],
         "auto_tags": {
-          "companies": [
-            "NPCI",
-            "Razorpay",
-            "OpenAI"
-          ],
+          "companies": [],
           "sectors": [
-            "Technology",
-            "Finance"
+            "Defense",
+            "Manufacturing"
           ],
           "financial_terms": [
-            "payments"
+            "investment",
+            "deal"
           ],
-          "entities": []
-        }
-      },
-      {
-        "title": "India’s Hyperbots, Smallest AI, and Stimuler among 40 AI startups chosen for AWS 2025 Generative AI Accelerator",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/sci-tech/technology/indias-hyperbots-smallest-ai-and-stimuler-among-40-ai-startups-chosen-for-aws-2025-generative-ai-accelerator/article70138734.ece",
-        "published": "2025-10-08T14:29:37+05:30",
-        "one_liner": "Three Indian startups are selected for AWS's 2025 Generative AI Accelerator program.",
-        "bullets": [
-          "India’s Hyperbots, Smallest AI, and Stimuler join 37 others, promoting Indian innovation in the global AI space.",
-          "Participation in AWS program may leverage investment and growth opportunities for AI startups in India."
-        ],
-        "labels": [
-          "startups"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Hyperbots",
-            "Smallest AI",
-            "Stimuler"
-          ],
-          "sectors": [
-            "Technology",
-            "AI"
-          ],
-          "financial_terms": [],
           "entities": [
-            "AWS"
+            "U.K.",
+            "Indian firms",
+            "Naval"
           ]
-        }
-      },
-      {
-        "title": "Elon Musk's xAI nears $20 billion capital raise tied to Nvidia chips: Report",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/sci-tech/technology/elon-musks-xai-nears-20-billion-capital-raise-tied-to-nvidia-chips-report/article70137918.ece",
-        "published": "2025-10-08T12:15:09+05:30",
-        "one_liner": "xAI, led by Elon Musk, is reportedly close to raising $20 billion.",
-        "bullets": [
-          "This fundraising is connected to Nvidia chips, which could impact AI advancements.",
-          "Potential implications for tech investments and AI market dynamics in India."
-        ],
-        "labels": [
-          "startups",
-          "markets"
-        ],
-        "auto_tags": {
-          "companies": [
-            "xAI",
-            "Nvidia"
-          ],
-          "sectors": [
-            "Technology"
-          ],
-          "financial_terms": [
-            "capital raise"
-          ],
-          "entities": []
-        }
-      },
-      {
-        "title": "Intel to reveal tech details on forthcoming PC chip, sources say",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/sci-tech/technology/intel-to-reveal-tech-details-on-forthcoming-pc-chip-sources-say/article70137911.ece",
-        "published": "2025-10-08T09:22:26+05:30",
-        "one_liner": "Intel prepares to unveil details on its new Panther Lake microarchitecture.",
-        "bullets": [
-          "The company briefed analysts on new microarchitecture, signaling advancements in PC technology.",
-          "Such developments could boost India's semiconductor industry and attract investments."
-        ],
-        "labels": [
-          "startups",
-          "infra"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Intel"
-          ],
-          "sectors": [
-            "Technology",
-            "Semiconductors"
-          ],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Anthropic to open first India office next year",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/sci-tech/technology/anthropic-to-open-first-india-office-next-year/article70137914.ece",
-        "published": "2025-10-08T08:48:44+05:30",
-        "one_liner": "Anthropic will open its first office in Bengaluru by early 2026.",
-        "bullets": [
-          "Anthropic establishes an office in Bengaluru to expand its operations in India.",
-          "This move signifies India's growing role in the technology landscape."
-        ],
-        "labels": [
-          "startups"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Anthropic"
-          ],
-          "sectors": [
-            "Technology"
-          ],
-          "financial_terms": [],
-          "entities": []
-        }
-      },
-      {
-        "title": "Tara Venu appointed as ED, Atelier Expressions",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/tara-venu-appointed-as-ed-atelier-expressions/article70136276.ece",
-        "published": "2025-10-07T22:33:09+05:30",
-        "one_liner": "Tara Venu has been appointed as Executive Director at Atelier Expressions.",
-        "bullets": [
-          "Tara Venu's appointment could influence strategic decisions at Atelier Expressions, fostering growth in a competitive market."
-        ],
-        "labels": [
-          "startups"
-        ],
-        "auto_tags": {
-          "companies": [
-            "Atelier Expressions"
-          ],
-          "sectors": [],
-          "financial_terms": [],
-          "entities": []
         }
       }
     ],
@@ -2450,48 +2470,13 @@
           "entities": []
         }
       }
-    ],
-    "Energy & Resources": [
-      {
-        "title": "ONGC asked to pay ₹60 lakh as penalties for alleged discrepancy in excise duty payment of Rajahmundry asset",
-        "source": "The Hindu Business",
-        "link": "https://www.thehindu.com/business/Industry/ongc-asked-to-pay-60-lakh-as-penalties-for-alleged-discrepancy-in-excise-duty-payment-of-rajahmundry-asset/article70135916.ece",
-        "published": "2025-10-07T22:41:12+05:30",
-        "one_liner": "ONGC faces ₹60 lakh penalty for excise duty discrepancies in Rajahmundry.",
-        "bullets": [
-          "ONGC required to pay penalties of ₹60 lakh due to alleged discrepancies, impacting financials and operations.",
-          "The decision will prompt review by ONGC, potentially affecting investor confidence."
-        ],
-        "labels": [
-          "energy",
-          "policy"
-        ],
-        "auto_tags": {
-          "companies": [
-            "ONGC"
-          ],
-          "sectors": [
-            "Energy"
-          ],
-          "financial_terms": [
-            "penalty"
-          ],
-          "entities": []
-        }
-      }
     ]
   },
   "total_items": 100,
   "feed_summary": [
     {
-      "name": "Economic Times",
-      "items_ok": 42,
-      "items_failed": 0,
-      "status": "success"
-    },
-    {
-      "name": "The Hindu Business",
-      "items_ok": 44,
+      "name": "Times of India Business",
+      "items_ok": 20,
       "items_failed": 0,
       "status": "success"
     },
@@ -2502,20 +2487,26 @@
       "status": "success"
     },
     {
+      "name": "Economic Times",
+      "items_ok": 42,
+      "items_failed": 0,
+      "status": "success"
+    },
+    {
+      "name": "The Hindu Business",
+      "items_ok": 46,
+      "items_failed": 0,
+      "status": "success"
+    },
+    {
       "name": "Mint",
       "items_ok": 35,
       "items_failed": 0,
       "status": "success"
     },
     {
-      "name": "Times of India Business",
-      "items_ok": 20,
-      "items_failed": 0,
-      "status": "success"
-    },
-    {
       "name": "Business Standard",
-      "items_ok": 275,
+      "items_ok": 284,
       "items_failed": 0,
       "status": "success"
     },
