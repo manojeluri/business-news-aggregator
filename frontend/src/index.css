@@ -71,6 +71,8 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     transition: background 0.3s ease, color 0.3s ease;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    overscroll-behavior: none; /* Prevent pull-to-refresh */
 }
 
 .container {
@@ -359,11 +361,13 @@ body {
     max-width: 1400px;
     margin: 0 auto 40px auto;
     padding: 0 24px;
+    will-change: auto; /* Optimize for smooth rendering */
 }
 
 .cards-grid-column {
     padding-left: 20px;
     background-clip: padding-box;
+    contain: layout style; /* Improve scroll performance */
 }
 
 .cards-grid-column:first-child {

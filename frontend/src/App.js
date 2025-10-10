@@ -18,6 +18,7 @@ function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [notification, setNotification] = useState({ show: false, message: '', type: 'success' });
   const [lastDigestTimestamp, setLastDigestTimestamp] = useState(null);
+  const [isScrolling, setIsScrolling] = useState(false);
 
   // Authentication state
   const [user, setUser] = useState(null);
@@ -157,6 +158,34 @@ function App() {
     }
   }, []);
 
+  // Detect scrolling to prevent updates during scroll
+  useEffect(() => {
+    let scrollTimeout;
+
+    const handleScroll = () => {
+      setIsScrolling(true);
+
+      // Clear existing timeout
+      if (scrollTimeout) {
+        clearTimeout(scrollTimeout);
+      }
+
+      // Set scrolling to false after 150ms of no scrolling
+      scrollTimeout = setTimeout(() => {
+        setIsScrolling(false);
+      }, 150);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (scrollTimeout) {
+        clearTimeout(scrollTimeout);
+      }
+    };
+  }, []);
+
   useEffect(() => {
     // Load existing data on page load
     const initLoad = async () => {
@@ -180,7 +209,16 @@ function App() {
 
     // Auto-refresh every 5 minutes (silently in the background)
     const interval = setInterval(async () => {
+      // Don't refresh if user is actively scrolling
+      if (isScrolling) {
+        console.log('Skipping auto-refresh during scroll');
+        return;
+      }
+
       try {
+        // Save scroll position before refresh
+        const scrollPos = window.scrollY;
+
         const response = await apiCall('/api/refresh', { method: 'POST' });
         if (response.success) {
           const digestTimestamp = response.digest_timestamp;
@@ -192,6 +230,11 @@ function App() {
 
           // Silent refresh - no loading spinner, smooth update
           await loadNews(displayTime, true);
+
+          // Restore scroll position after a brief delay for render
+          setTimeout(() => {
+            window.scrollTo(0, scrollPos);
+          }, 100);
 
           // Only show notification if there are actually new updates
           if (hasNewUpdates) {
@@ -205,7 +248,7 @@ function App() {
     }, 5 * 60 * 1000); // 5 minutes
 
     return () => clearInterval(interval);
-  }, [user, token]);
+  }, [user, token, isScrolling, lastDigestTimestamp]);
 
   // Authentication handlers
   const handleLoginSuccess = (userData, authToken) => {
@@ -302,9 +345,9 @@ function App() {
                 className="cards-grid"
                 columnClassName="cards-grid-column"
               >
-                {getAllArticles().map((article, index) => (
+                {getAllArticles().map((article) => (
                   <CategorySection
-                    key={`${article.link}-${index}`}
+                    key={article.link || article.title}
                     categoryData={{ articles: [article] }}
                   />
                 ))}
