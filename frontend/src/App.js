@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { apiCall } from './config/api';
 import Header from './components/Header';
 import CategorySection from './components/CategorySection';
@@ -18,7 +18,10 @@ function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [notification, setNotification] = useState({ show: false, message: '', type: 'success' });
   const [lastDigestTimestamp, setLastDigestTimestamp] = useState(null);
-  const [isScrolling, setIsScrolling] = useState(false);
+
+  // Use refs for values that shouldn't trigger re-renders
+  const isScrollingRef = useRef(false);
+  const lastDigestRef = useRef(null);
 
   // Authentication state
   const [user, setUser] = useState(null);
@@ -107,10 +110,11 @@ function App() {
 
       // Check if there are new updates
       const digestTimestamp = refreshResponse.digest_timestamp;
-      const hasNewUpdates = lastDigestTimestamp !== digestTimestamp;
+      const hasNewUpdates = lastDigestRef.current !== digestTimestamp;
 
       // Update the last known digest timestamp
       setLastDigestTimestamp(digestTimestamp);
+      lastDigestRef.current = digestTimestamp;
 
       // Format the refresh timestamp for display (HH:MM format)
       const refreshDate = new Date(refreshResponse.refresh_timestamp);
@@ -163,7 +167,7 @@ function App() {
     let scrollTimeout;
 
     const handleScroll = () => {
-      setIsScrolling(true);
+      isScrollingRef.current = true;
 
       // Clear existing timeout
       if (scrollTimeout) {
@@ -172,7 +176,7 @@ function App() {
 
       // Set scrolling to false after 150ms of no scrolling
       scrollTimeout = setTimeout(() => {
-        setIsScrolling(false);
+        isScrollingRef.current = false;
       }, 150);
     };
 
@@ -195,7 +199,9 @@ function App() {
         // Get the digest timestamp from the response
         const statusResponse = await apiCall('/api/status');
         if (statusResponse.digest) {
-          setLastDigestTimestamp(statusResponse.digest.last_updated);
+          const timestamp = statusResponse.digest.last_updated;
+          setLastDigestTimestamp(timestamp);
+          lastDigestRef.current = timestamp;
         }
       } catch (error) {
         console.error('Initial load failed:', error);
@@ -210,7 +216,7 @@ function App() {
     // Auto-refresh every 5 minutes (silently in the background)
     const interval = setInterval(async () => {
       // Don't refresh if user is actively scrolling
-      if (isScrolling) {
+      if (isScrollingRef.current) {
         console.log('Skipping auto-refresh during scroll');
         return;
       }
@@ -222,8 +228,9 @@ function App() {
         const response = await apiCall('/api/refresh', { method: 'POST' });
         if (response.success) {
           const digestTimestamp = response.digest_timestamp;
-          const hasNewUpdates = lastDigestTimestamp !== digestTimestamp;
+          const hasNewUpdates = lastDigestRef.current !== digestTimestamp;
           setLastDigestTimestamp(digestTimestamp);
+          lastDigestRef.current = digestTimestamp;
 
           const refreshDate = new Date(response.refresh_timestamp);
           const displayTime = `${String(refreshDate.getHours()).padStart(2, '0')}:${String(refreshDate.getMinutes()).padStart(2, '0')}`;
@@ -248,7 +255,7 @@ function App() {
     }, 5 * 60 * 1000); // 5 minutes
 
     return () => clearInterval(interval);
-  }, [user, token, isScrolling, lastDigestTimestamp]);
+  }, [user, token]);
 
   // Authentication handlers
   const handleLoginSuccess = (userData, authToken) => {
