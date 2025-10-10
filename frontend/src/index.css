@@ -730,39 +730,57 @@ body {
         top: 0;
         left: 0;
         right: 0;
-        padding: 10px 0;
+        width: 100%;
+        padding: 12px 0;
         margin-bottom: 0;
         z-index: 100;
         background: var(--bg-primary);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+        box-shadow: 0 2px 8px var(--shadow-light);
     }
 
     /* Add padding to main content to account for fixed header */
     main {
-        padding-top: 60px;
+        padding-top: 68px;
     }
 
     .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         padding: 0 12px;
         gap: 12px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .header-left {
+        display: flex;
+        align-items: center;
         gap: 8px;
         flex-shrink: 0;
+        flex: 0 0 auto;
     }
 
     .header-icon {
-        width: 28px;
-        height: 28px;
-        font-size: 14px;
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
         border-radius: 8px;
+        flex-shrink: 0;
+    }
+
+    .header-text {
+        display: flex;
+        flex-direction: column;
     }
 
     .header-text h1 {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
+        line-height: 1.2;
+        margin: 0;
     }
 
     .header-tagline {
@@ -772,6 +790,13 @@ body {
     /* Hide search and date on mobile */
     .header-center {
         display: none;
+    }
+
+    .header-right {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        flex: 0 0 auto;
     }
 
     /* Hide desktop actions, show mobile menu */
@@ -787,7 +812,7 @@ body {
         background: var(--bg-secondary);
         border: 1px solid var(--border-secondary);
         border-radius: 8px;
-        padding: 8px 12px;
+        padding: 10px;
         font-size: 20px;
         color: var(--text-primary);
         cursor: pointer;
@@ -797,6 +822,8 @@ body {
         justify-content: center;
         min-width: 44px;
         min-height: 44px;
+        width: 44px;
+        height: 44px;
     }
 
     .mobile-menu-button:hover,
