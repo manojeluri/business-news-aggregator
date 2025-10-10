@@ -724,10 +724,23 @@ body {
         overflow-x: hidden;
     }
 
-    /* Compact Mobile Header */
+    /* Compact Mobile Header - Fixed Position */
     .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
         padding: 10px 0;
-        margin-bottom: 16px;
+        margin-bottom: 0;
+        z-index: 100;
+        background: var(--bg-primary);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    /* Add padding to main content to account for fixed header */
+    main {
+        padding-top: 60px;
     }
 
     .header-content {
@@ -805,7 +818,7 @@ body {
         right: 0;
         bottom: 0;
         background: rgba(0, 0, 0, 0.5);
-        z-index: 999;
+        z-index: 99;
         animation: fadeIn 0.2s ease;
     }
 
@@ -820,17 +833,19 @@ body {
 
     .mobile-menu-dropdown {
         position: fixed;
-        top: 60px;
+        top: 56px;
         right: 12px;
         background: var(--bg-card);
         backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         border: 1px solid var(--border-secondary);
         border-radius: 12px;
         box-shadow: 0 8px 32px var(--shadow-heavy);
-        z-index: 1000;
+        z-index: 1001;
         min-width: 240px;
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
         animation: slideDown 0.2s ease;
-        overflow: hidden;
     }
 
     @keyframes slideDown {
@@ -1020,14 +1035,15 @@ body {
         min-width: 50px;
     }
 
-    /* Notification - Mobile Position */
+    /* Notification - Mobile Position (below fixed header) */
     .notification {
-        top: 12px;
+        top: 60px;
         right: 12px;
         left: 12px;
         padding: 12px 16px;
         font-size: 13px;
-        transform: translateY(-100px);
+        z-index: 1002;
+        transform: translateY(-120px);
     }
 
     .notification.show {
