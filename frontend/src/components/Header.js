@@ -82,6 +82,8 @@ const Header = ({ stats, onRefresh, refreshing, user, onLogout, onProfileClick }
 
           {/* Mobile View - Hamburger Menu */}
           <div className="header-mobile-actions">
+            <ThemeToggle />
+
             <button
               className={`mobile-menu-button ${menuOpen ? 'active' : ''}`}
               onClick={handleMenuToggle}
@@ -117,12 +119,6 @@ const Header = ({ stats, onRefresh, refreshing, user, onLogout, onProfileClick }
                     <span className="mobile-menu-icon">👤</span>
                     <span>My Profile</span>
                   </button>
-
-                  <div className="mobile-menu-item mobile-menu-theme">
-                    <span className="mobile-menu-icon">🌙</span>
-                    <span>Dark Mode</span>
-                    <ThemeToggle />
-                  </div>
 
                   <button
                     className="mobile-menu-item mobile-menu-logout"

@@ -764,7 +764,9 @@ body {
     }
 
     .header-mobile-actions {
-        display: block;
+        display: flex;
+        align-items: center;
+        gap: 12px;
     }
 
     .mobile-menu-button {
